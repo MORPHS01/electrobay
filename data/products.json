@@ -1,0 +1,1586 @@
+[
+  {
+    "productId": "P0001",
+    "productName": "Apple MacBook Air M2",
+    "productDescription": "The Apple MacBook Air M2 is a state-of-the-art laptops device built by Apple, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/applemacbookairM2.png",
+    "productRating": 4.6,
+    "productPrice": 1654000
+  },
+  {
+    "productId": "P0002",
+    "productName": "Apple MacBook Pro 14 inches M1 Pro",
+    "productDescription": "The Apple MacBook Pro 14 inches M1 Pro is a state-of-the-art laptops device built by Apple, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/AppleMacBookPro14M1Pro.png",
+    "productRating": 3.5,
+    "productPrice": 1794000
+  },
+  {
+    "productId": "P0003",
+    "productName": "Dell XPS 13",
+    "productDescription": "The Dell XPS 13 is a state-of-the-art laptops device built by Dell, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/DellXPS13.png",
+    "productRating": 3.8,
+    "productPrice": 2975000
+  },
+  {
+    "productId": "P0004",
+    "productName": "Dell XPS 15",
+    "productDescription": "The Dell XPS 15 is a state-of-the-art laptops device built by Dell, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/DellXPS15.png",
+    "productRating": 4.4,
+    "productPrice": 1918000
+  },
+  {
+    "productId": "P0005",
+    "productName": "HP Spectre x360",
+    "productDescription": "The HP Spectre x360 is a state-of-the-art laptops device built by HP, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/HPSpectrex360.png",
+    "productRating": 4.5,
+    "productPrice": 2553000
+  },
+  {
+    "productId": "P0006",
+    "productName": "Lenovo ThinkPad X1 Carbon",
+    "productDescription": "The Lenovo ThinkPad X1 Carbon is a state-of-the-art laptops device built by Lenovo, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/LenovoThinkPadX1Carbon.png",
+    "productRating": 4.5,
+    "productPrice": 3468000
+  },
+  {
+    "productId": "P0007",
+    "productName": "Asus ZenBook 14",
+    "productDescription": "The Asus ZenBook 14 is a state-of-the-art laptops device built by Asus, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/AsusZenBook14.png",
+    "productRating": 3.9,
+    "productPrice": 2983000
+  },
+  {
+    "productId": "P0008",
+    "productName": "Microsoft Surface Laptop 5",
+    "productDescription": "The Microsoft Surface Laptop 5 is a state-of-the-art laptops device built by Microsoft, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/MicrosoftSurfaceLaptop5.png",
+    "productRating": 4.1,
+    "productPrice": 2285000
+  },
+  {
+    "productId": "P0009",
+    "productName": "Razer Blade 15",
+    "productDescription": "The Razer Blade 15 is a state-of-the-art laptops device built by Razer, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/RazerBlade15.png",
+    "productRating": 4.7,
+    "productPrice": 2518000
+  },
+  {
+    "productId": "P0010",
+    "productName": "Acer Swift 3",
+    "productDescription": "The Acer Swift 3 is a state-of-the-art laptops device built by Acer, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/AcerSwift3.png",
+    "productRating": 5.0,
+    "productPrice": 2069000
+  },
+  {
+    "productId": "P0011",
+    "productName": "LG Gram 17",
+    "productDescription": "The LG Gram 17 is a state-of-the-art laptops device built by LG, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/LG Gram 17.png",
+    "productRating": 4.2,
+    "productPrice": 2585000
+  },
+  {
+    "productId": "P0012",
+    "productName": "Huawei MateBook X Pro",
+    "productDescription": "The Huawei MateBook X Pro is a state-of-the-art laptops device built by Huawei, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/Huawei MateBook X Pro.png",
+    "productRating": 4.1,
+    "productPrice": 152000
+  },
+  {
+    "productId": "P0013",
+    "productName": "Samsung Galaxy Book 3",
+    "productDescription": "The Samsung Galaxy Book 3 is a state-of-the-art laptops device built by Samsung, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/Samsung Galaxy Book 3.png",
+    "productRating": 4.5,
+    "productPrice": 3185000
+  },
+  {
+    "productId": "P0014",
+    "productName": "MSI Prestige 14",
+    "productDescription": "The MSI Prestige 14 is a state-of-the-art laptops device built by MSI, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/MSI Prestige 14.png",
+    "productRating": 4.2,
+    "productPrice": 1011000
+  },
+  {
+    "productId": "P0015",
+    "productName": "Alienware m15 R7",
+    "productDescription": "The Alienware m15 R7 is a state-of-the-art laptops device built by Alienware, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/Alienware m15 R7.png",
+    "productRating": 4.6,
+    "productPrice": 3110000
+  },
+  {
+    "productId": "P0016",
+    "productName": "HP Envy 13",
+    "productDescription": "The HP Envy 13 is a state-of-the-art laptops device built by HP, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/HP Envy 13.png",
+    "productRating": 3.8,
+    "productPrice": 166000
+  },
+  {
+    "productId": "P0017",
+    "productName": "Asus ROG Strix G15",
+    "productDescription": "The Asus ROG Strix G15 is a state-of-the-art laptops device built by Asus, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/Asus ROG Strix G15.png",
+    "productRating": 4.7,
+    "productPrice": 2052000
+  },
+  {
+    "productId": "P0018",
+    "productName": "Dell Inspiron 16",
+    "productDescription": "The Dell Inspiron 16 is a state-of-the-art laptops device built by Dell, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/Dell Inspiron 16.png",
+    "productRating": 4.6,
+    "productPrice": 221000
+  },
+  {
+    "productId": "P0019",
+    "productName": "Lenovo Yoga 9i",
+    "productDescription": "The Lenovo Yoga 9i is a state-of-the-art laptops device built by Lenovo, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/Lenovo Yoga 9i.png",
+    "productRating": 4.2,
+    "productPrice": 1262000
+  },
+  {
+    "productId": "P0020",
+    "productName": "Samsung Galaxy Book 2 Pro",
+    "productDescription": "The Samsung Galaxy Book 2 Pro is a state-of-the-art laptops device built by Samsung, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/Samsung Galaxy Book 2 Pro.png",
+    "productRating": 4.8,
+    "productPrice": 2911000
+  },
+  {
+    "productId": "P0021",
+    "productName": "Acer Predator Helios 300",
+    "productDescription": "The Acer Predator Helios 300 is a state-of-the-art laptops device built by Acer, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/Acer Predator Helios 300.png",
+    "productRating": 4.7,
+    "productPrice": 2192000
+  },
+  {
+    "productId": "P0022",
+    "productName": "Microsoft Surface Pro 9",
+    "productDescription": "The Microsoft Surface Pro 9 is a state-of-the-art laptops device built by Microsoft, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "laptops",
+    "productImage": "/products/laptops/Microsoft Surface Pro 9.png",
+    "productRating": 4.2,
+    "productPrice": 2421000
+  },
+  {
+    "productId": "P0023",
+    "productName": "Apple iPhone 15",
+    "productDescription": "The Apple iPhone 15 is a state-of-the-art smart phones device built by Apple, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Apple iPhone 15.png",
+    "productRating": 5.0,
+    "productPrice": 748000
+  },
+  {
+    "productId": "P0024",
+    "productName": "Apple iPhone 12 Mini",
+    "productDescription": "The Apple iPhone 12 Mini is a state-of-the-art smart phones device built by Apple, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Apple iPhone 12 Mini.png",
+    "productRating": 4.5,
+    "productPrice": 874000
+  },
+  {
+    "productId": "P0025",
+    "productName": "Samsung Galaxy S23",
+    "productDescription": "The Samsung Galaxy S23 is a state-of-the-art smart phones device built by Samsung, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Samsung Galaxy S23.png",
+    "productRating": 4.5,
+    "productPrice": 1435000
+  },
+  {
+    "productId": "P0026",
+    "productName": "Samsung Galaxy A56",
+    "productDescription": "The Samsung Galaxy A56 is a state-of-the-art smart phones device built by Samsung, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Samsung Galaxy A56.png",
+    "productRating": 4.0,
+    "productPrice": 876000
+  },
+  {
+    "productId": "P0027",
+    "productName": "Google Pixel 8",
+    "productDescription": "The Google Pixel 8 is a state-of-the-art smart phones device built by Google, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Google Pixel 8.png",
+    "productRating": 3.7,
+    "productPrice": 1120000
+  },
+  {
+    "productId": "P0028",
+    "productName": "Google Pixel 8 Pro",
+    "productDescription": "The Google Pixel 8 Pro is a state-of-the-art smart phones device built by Google, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Google Pixel 8 Pro.png",
+    "productRating": 4.3,
+    "productPrice": 1305000
+  },
+  {
+    "productId": "P0029",
+    "productName": "OnePlus 11",
+    "productDescription": "The OnePlus 11 is a state-of-the-art smart phones device built by OnePlus, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/OnePlus 11.png",
+    "productRating": 3.6,
+    "productPrice": 1581000
+  },
+  {
+    "productId": "P0030",
+    "productName": "Xiaomi 13 Pro",
+    "productDescription": "The Xiaomi 13 Pro is a state-of-the-art smart phones device built by Xiaomi, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Xiaomi 13 Pro.png",
+    "productRating": 4.3,
+    "productPrice": 1529000
+  },
+  {
+    "productId": "P0031",
+    "productName": "Huawei P60 Pro",
+    "productDescription": "The Huawei P60 Pro is a state-of-the-art smart phones device built by Huawei, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Huawei P60 Pro.png",
+    "productRating": 3.7,
+    "productPrice": 1217000
+  },
+  {
+    "productId": "P0032",
+    "productName": "Sony Xperia 1 V",
+    "productDescription": "The Sony Xperia 1 V is a state-of-the-art smart phones device built by Sony, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Sony Xperia 1 V.png",
+    "productRating": 4.1,
+    "productPrice": 548000
+  },
+  {
+    "productId": "P0033",
+    "productName": "Motorola Edge 50",
+    "productDescription": "The Motorola Edge 50 is a state-of-the-art smart phones device built by Motorola, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Motorola Edge 50.png",
+    "productRating": 4.3,
+    "productPrice": 1274000
+  },
+  {
+    "productId": "P0034",
+    "productName": "Oppo Find X6 Pro",
+    "productDescription": "The Oppo Find X6 Pro is a state-of-the-art smart phones device built by Oppo, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Oppo Find X6 Pro.png",
+    "productRating": 4.9,
+    "productPrice": 918000
+  },
+  {
+    "productId": "P0035",
+    "productName": "Asus ROG Phone 7",
+    "productDescription": "The Asus ROG Phone 7 is a state-of-the-art smart phones device built by Asus, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Asus ROG Phone 7.png",
+    "productRating": 3.6,
+    "productPrice": 1211000
+  },
+  {
+    "productId": "P0036",
+    "productName": "Nokia X30",
+    "productDescription": "The Nokia X30 is a state-of-the-art smart phones device built by Nokia, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Nokia X30.png",
+    "productRating": 4.1,
+    "productPrice": 858000
+  },
+  {
+    "productId": "P0037",
+    "productName": "Vivo X90 Pro",
+    "productDescription": "The Vivo X90 Pro is a state-of-the-art smart phones device built by Vivo, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Vivo X90 Pro.png",
+    "productRating": 4.4,
+    "productPrice": 1076000
+  },
+  {
+    "productId": "P0038",
+    "productName": "RedMagic 10 Pro",
+    "productDescription": "The RedMagic 10 Pro is a state-of-the-art smart phones device built by Realme, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/RedMagic 10 Pro.png",
+    "productRating": 3.7,
+    "productPrice": 998000
+  },
+  {
+    "productId": "P0039",
+    "productName": "Tecno Camon 20",
+    "productDescription": "The Tecno Camon 20 is a state-of-the-art smart phones device built by Tecno, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Tecno Camon 20.png",
+    "productRating": 3.7,
+    "productPrice": 1542000
+  },
+  {
+    "productId": "P0040",
+    "productName": "Nothing Phone 2a",
+    "productDescription": "The Nothing Phone 2a is a state-of-the-art smart phones device built by Infinix, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Nothing Phone 2a.png",
+    "productRating": 5.0,
+    "productPrice": 54000
+  },
+  {
+    "productId": "P0041",
+    "productName": "Nothing Phone 3a",
+    "productDescription": "The Nothing Phone 3a is a state-of-the-art smart phones device built by BlackBerry, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Nothing Phone 3a.png",
+    "productRating": 3.6,
+    "productPrice": 112000
+  },
+  {
+    "productId": "P0042",
+    "productName": "Blu G64",
+    "productDescription": "The Blu G64 is a state-of-the-art smart phones device built by Fairphone, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Blu G64.png",
+    "productRating": 3.7,
+    "productPrice": 1270000
+  },
+  {
+    "productId": "P0043",
+    "productName": "Sony Xperia 10 VI",
+    "productDescription": "The Sony Xperia 10 VI is a state-of-the-art smart phones device built by Sony, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Sony Xperia 10 VI.png",
+    "productRating": 4.2,
+    "productPrice": 1327000
+  },
+  {
+    "productId": "P0044",
+    "productName": "Samsung Galaxy Z Flip 6",
+    "productDescription": "The Samsung Galaxy Z Flip 6 is a state-of-the-art smart phones device built by Samsung, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart phones",
+    "productImage": "/products/smartphones/Samsung Galaxy Z Flip 6.png",
+    "productRating": 3.6,
+    "productPrice": 1197000
+  },
+  {
+    "productId": "P0045",
+    "productName": "Apple Watch Series 9",
+    "productDescription": "The Apple Watch Series 9 is a state-of-the-art smart watches device built by Apple, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Apple Watch Series 9.png",
+    "productRating": 3.6,
+    "productPrice": 392000
+  },
+  {
+    "productId": "P0046",
+    "productName": "Apple Watch Ultra 2",
+    "productDescription": "The Apple Watch Ultra 2 is a state-of-the-art smart watches device built by Apple, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Apple Watch Ultra 2.png",
+    "productRating": 4.8,
+    "productPrice": 547000
+  },
+  {
+    "productId": "P0047",
+    "productName": "Samsung Galaxy Watch 6",
+    "productDescription": "The Samsung Galaxy Watch 6 is a state-of-the-art smart watches device built by Samsung, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Samsung Galaxy Watch 6.png",
+    "productRating": 4.4,
+    "productPrice": 342000
+  },
+  {
+    "productId": "P0048",
+    "productName": "Samsung Galaxy Watch 6 Classic",
+    "productDescription": "The Samsung Galaxy Watch 6 Classic is a state-of-the-art smart watches device built by Samsung, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Samsung Galaxy Watch 6 Classic.png",
+    "productRating": 4.5,
+    "productPrice": 531000
+  },
+  {
+    "productId": "P0049",
+    "productName": "Garmin Fenix 7",
+    "productDescription": "The Garmin Fenix 7 is a state-of-the-art smart watches device built by Garmin, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Garmin Fenix 7.png",
+    "productRating": 4.2,
+    "productPrice": 161000
+  },
+  {
+    "productId": "P0050",
+    "productName": "Fitbit Sense 2",
+    "productDescription": "The Fitbit Sense 2 is a state-of-the-art smart watches device built by Fitbit, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Fitbit Sense 2.png",
+    "productRating": 5.0,
+    "productPrice": 357000
+  },
+  {
+    "productId": "P0051",
+    "productName": "Google Pixel Watch 2",
+    "productDescription": "The Google Pixel Watch 2 is a state-of-the-art smart watches device built by Google, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Google Pixel Watch 2.png",
+    "productRating": 4.5,
+    "productPrice": 514000
+  },
+  {
+    "productId": "P0052",
+    "productName": "Huawei Watch GT 4",
+    "productDescription": "The Huawei Watch GT 4 is a state-of-the-art smart watches device built by Huawei, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Huawei Watch GT 4.png",
+    "productRating": 3.6,
+    "productPrice": 239000
+  },
+  {
+    "productId": "P0053",
+    "productName": "Amazfit GTR 4",
+    "productDescription": "The Amazfit GTR 4 is a state-of-the-art smart watches device built by Amazfit, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Amazfit GTR 4.png",
+    "productRating": 4.8,
+    "productPrice": 752000
+  },
+  {
+    "productId": "P0054",
+    "productName": "TicWatch Pro 5",
+    "productDescription": "The TicWatch Pro 5 is a state-of-the-art smart watches device built by TicWatch, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/TicWatch Pro 5.png",
+    "productRating": 4.2,
+    "productPrice": 176000
+  },
+  {
+    "productId": "P0055",
+    "productName": "Fossil Gen 6",
+    "productDescription": "The Fossil Gen 6 is a state-of-the-art smart watches device built by Fossil, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Fossil Gen 6.png",
+    "productRating": 3.6,
+    "productPrice": 564000
+  },
+  {
+    "productId": "P0056",
+    "productName": "Suunto 9 Peak",
+    "productDescription": "The Suunto 9 Peak is a state-of-the-art smart watches device built by Suunto, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Suunto 9 Peak.png",
+    "productRating": 4.7,
+    "productPrice": 253000
+  },
+  {
+    "productId": "P0057",
+    "productName": "Polar Vantage V3",
+    "productDescription": "The Polar Vantage V3 is a state-of-the-art smart watches device built by Polar, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Polar Vantage V3.png",
+    "productRating": 3.8,
+    "productPrice": 431000
+  },
+  {
+    "productId": "P0058",
+    "productName": "Withings ScanWatch",
+    "productDescription": "The Withings ScanWatch is a state-of-the-art smart watches device built by Withings, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Withings ScanWatch.png",
+    "productRating": 4.0,
+    "productPrice": 449000
+  },
+  {
+    "productId": "P0059",
+    "productName": "Mobvoi TicWatch E3",
+    "productDescription": "The Mobvoi TicWatch E3 is a state-of-the-art smart watches device built by Mobvoi, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Mobvoi TicWatch E3.png",
+    "productRating": 3.6,
+    "productPrice": 796000
+  },
+  {
+    "productId": "P0060",
+    "productName": "Garmin Vivoactive 5",
+    "productDescription": "The Garmin Vivoactive 5 is a state-of-the-art smart watches device built by Garmin, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Garmin Vivoactive 5.png",
+    "productRating": 3.8,
+    "productPrice": 689000
+  },
+  {
+    "productId": "P0061",
+    "productName": "Fitbit Versa 4",
+    "productDescription": "The Fitbit Versa 4 is a state-of-the-art smart watches device built by Fitbit, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Fitbit Versa 4.png",
+    "productRating": 4.8,
+    "productPrice": 751000
+  },
+  {
+    "productId": "P0062",
+    "productName": "Samsung Gear S3",
+    "productDescription": "The Samsung Gear S3 is a state-of-the-art smart watches device built by Samsung, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Samsung Gear S3.png",
+    "productRating": 4.6,
+    "productPrice": 278000
+  },
+  {
+    "productId": "P0063",
+    "productName": "Apple Watch SE (2nd Gen)",
+    "productDescription": "The Apple Watch SE (2nd Gen) is a state-of-the-art smart watches device built by Apple, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Apple Watch SE (2nd Gen).png",
+    "productRating": 4.7,
+    "productPrice": 389000
+  },
+  {
+    "productId": "P0064",
+    "productName": "Huawei Watch Fit 2",
+    "productDescription": "The Huawei Watch Fit 2 is a state-of-the-art smart watches device built by Huawei, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Huawei Watch Fit 2.png",
+    "productRating": 4.1,
+    "productPrice": 335000
+  },
+  {
+    "productId": "P0065",
+    "productName": "OnePlus Watch 2",
+    "productDescription": "The OnePlus Watch 2 is a state-of-the-art smart watches device built by OnePlus, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/OnePlus Watch 2.png",
+    "productRating": 4.0,
+    "productPrice": 607000
+  },
+  {
+    "productId": "P0066",
+    "productName": "Xiaomi Mi Watch 2",
+    "productDescription": "The Xiaomi Mi Watch 2 is a state-of-the-art smart watches device built by Xiaomi, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "smart watches",
+    "productImage": "/products/smartwatches/Xiaomi Mi Watch 2.png",
+    "productRating": 4.1,
+    "productPrice": 623000
+  },
+  {
+    "productId": "P0067",
+    "productName": "Samsung QN90C Neo QLED 55 inches",
+    "productDescription": "The Samsung QN90C Neo QLED 55 inches is a state-of-the-art tvs device built by Samsung, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/Samsung QN90C Neo QLED 55 inches.png",
+    "productRating": 4.5,
+    "productPrice": 4107000
+  },
+  {
+    "productId": "P0068",
+    "productName": "LG C3 OLED 55 inches",
+    "productDescription": "The LG C3 OLED 55 inches is a state-of-the-art tvs device built by LG, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/LG C3 OLED 55 inches.png",
+    "productRating": 4.0,
+    "productPrice": 2171000
+  },
+  {
+    "productId": "P0069",
+    "productName": "Sony A95L OLED 65 inches",
+    "productDescription": "The Sony A95L OLED 65 inches is a state-of-the-art tvs device built by Sony, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/Sony A95L OLED 65 inches.png",
+    "productRating": 3.6,
+    "productPrice": 2867000
+  },
+  {
+    "productId": "P0070",
+    "productName": "TCL 6-Series R655 65 inches",
+    "productDescription": "The TCL 6-Series R655 65 inches is a state-of-the-art tvs device built by TCL, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/TCL 6-Series R655 65 inches.png",
+    "productRating": 4.0,
+    "productPrice": 1662000
+  },
+  {
+    "productId": "P0071",
+    "productName": "Hisense U8G 55 inches",
+    "productDescription": "The Hisense U8G 55 inches is a state-of-the-art tvs device built by Hisense, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/Hisense U8G 55 inches.png",
+    "productRating": 4.7,
+    "productPrice": 787000
+  },
+  {
+    "productId": "P0072",
+    "productName": "Vizio P-Series Quantum X 65 inches",
+    "productDescription": "The Vizio P-Series Quantum X 65 inches is a state-of-the-art tvs device built by Vizio, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/Vizio P-Series Quantum X 65 inches.png",
+    "productRating": 4.4,
+    "productPrice": 558000
+  },
+  {
+    "productId": "P0073",
+    "productName": "Panasonic JZ2000 65 inches",
+    "productDescription": "The Panasonic JZ2000 65 inches is a state-of-the-art tvs device built by Panasonic, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/Panasonic JZ2000 65 inches.png",
+    "productRating": 4.3,
+    "productPrice": 4058000
+  },
+  {
+    "productId": "P0074",
+    "productName": "Philips OLED+907 55 inches",
+    "productDescription": "The Philips OLED+907 55 inches is a state-of-the-art tvs device built by Philips, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/Philips OLED+907 55 inches.png",
+    "productRating": 4.6,
+    "productPrice": 332000
+  },
+  {
+    "productId": "P0075",
+    "productName": "Samsung The Frame 50 inches",
+    "productDescription": "The Samsung The Frame 50 inches is a state-of-the-art tvs device built by Samsung, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/Samsung The Frame 50 inches.png",
+    "productRating": 4.8,
+    "productPrice": 3442000
+  },
+  {
+    "productId": "P0076",
+    "productName": "LG G3 OLED 77 inches",
+    "productDescription": "The LG G3 OLED 77 inches is a state-of-the-art tvs device built by LG, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/LG G3 OLED 77 inches.png",
+    "productRating": 4.7,
+    "productPrice": 1392000
+  },
+  {
+    "productId": "P0077",
+    "productName": "Sony X90L 75 inches",
+    "productDescription": "The Sony X90L 75 inches is a state-of-the-art tvs device built by Sony, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/Sony X90L 75 inches.png",
+    "productRating": 4.7,
+    "productPrice": 4818000
+  },
+  {
+    "productId": "P0078",
+    "productName": "TCL 5-Series S546 55 inches",
+    "productDescription": "The TCL 5-Series S546 55 inches is a state-of-the-art tvs device built by TCL, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/TCL 5-Series S546 55 inches.png",
+    "productRating": 4.4,
+    "productPrice": 4005000
+  },
+  {
+    "productId": "P0079",
+    "productName": "Hisense 55 inches",
+    "productDescription": "The Hisense 55 inches is a state-of-the-art tvs device built by Hisense, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/Hisense 55 inches.png",
+    "productRating": 4.0,
+    "productPrice": 273000
+  },
+  {
+    "productId": "P0080",
+    "productName": "Samsung S95C QD-OLED 55 inches",
+    "productDescription": "The Samsung S95C QD-OLED 55 inches is a state-of-the-art tvs device built by Samsung, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/Samsung S95C QD-OLED 55 inches.png",
+    "productRating": 4.1,
+    "productPrice": 854000
+  },
+  {
+    "productId": "P0081",
+    "productName": "LG UQ9000 65 inches",
+    "productDescription": "The LG UQ9000 65 inches is a state-of-the-art tvs device built by LG, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/LG UQ9000 65 inches.png",
+    "productRating": 5.0,
+    "productPrice": 45000
+  },
+  {
+    "productId": "P0082",
+    "productName": "Sony X95L 85 inches",
+    "productDescription": "The Sony X95L 85 inches is a state-of-the-art tvs device built by Sony, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/Sony X95L 85 inches.png",
+    "productRating": 3.5,
+    "productPrice": 3230000
+  },
+  {
+    "productId": "P0083",
+    "productName": "TCL 4-Series S456 43 inches",
+    "productDescription": "The TCL 4-Series S456 43 inches is a state-of-the-art tvs device built by TCL, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/TCL 4-Series S456 43 inches.png",
+    "productRating": 3.9,
+    "productPrice": 798000
+  },
+  {
+    "productId": "P0084",
+    "productName": "Vizio M-Series Quantum 50 inches",
+    "productDescription": "The Vizio M-Series Quantum 50 inches is a state-of-the-art tvs device built by Vizio, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/Vizio M-Series Quantum 50 inches.png",
+    "productRating": 4.5,
+    "productPrice": 3189000
+  },
+  {
+    "productId": "P0085",
+    "productName": "Samsung 5500 Series 65 inches",
+    "productDescription": "The Samsung 5500 Series 65 inches is a state-of-the-art tvs device built by Samsung, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/Samsung 5500 Series 65 inches.png",
+    "productRating": 3.5,
+    "productPrice": 478000
+  },
+  {
+    "productId": "P0086",
+    "productName": "Sharp AQUOS 70 inches",
+    "productDescription": "The Sharp AQUOS 70 inches is a state-of-the-art tvs device built by Sharp, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/Sharp AQUOS 70 inches.png",
+    "productRating": 4.3,
+    "productPrice": 726000
+  },
+  {
+    "productId": "P0087",
+    "productName": "Samsung Terrace 55 inches",
+    "productDescription": "The Samsung Terrace 55 inches is a state-of-the-art tvs device built by Samsung, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/Samsung Terrace 55 inches.png",
+    "productRating": 4.3,
+    "productPrice": 2828000
+  },
+  {
+    "productId": "P0088",
+    "productName": "LG NanoCell 90 Series 65 inches",
+    "productDescription": "The LG NanoCell 90 Series 65 inches is a state-of-the-art tvs device built by LG, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "tv",
+    "productImage": "/products/tvs/LG NanoCell 90 Series 65 inches.png",
+    "productRating": 4.0,
+    "productPrice": 640000
+  },
+  {
+    "productId": "P0089",
+    "productName": "Sony PlayStation 5",
+    "productDescription": "The Sony PlayStation 5 is a state-of-the-art gaming device built by Sony, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/Sony PlayStation 5.png",
+    "productRating": 4.1,
+    "productPrice": 682000
+  },
+  {
+    "productId": "P0090",
+    "productName": "Microsoft Xbox Series X",
+    "productDescription": "The Microsoft Xbox Series X is a state-of-the-art gaming device built by Microsoft, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/Microsoft Xbox Series X.png",
+    "productRating": 5.0,
+    "productPrice": 49000
+  },
+  {
+    "productId": "P0091",
+    "productName": "Nintendo Switch OLED",
+    "productDescription": "The Nintendo Switch OLED is a state-of-the-art gaming device built by Nintendo, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/Nintendo Switch OLED.png",
+    "productRating": 4.1,
+    "productPrice": 616000
+  },
+  {
+    "productId": "P0092",
+    "productName": "Valve Steam Deck",
+    "productDescription": "The Valve Steam Deck is a state-of-the-art gaming device built by Valve, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/Valve Steam Deck.png",
+    "productRating": 3.6,
+    "productPrice": 463000
+  },
+  {
+    "productId": "P0093",
+    "productName": "ASUS ROG Ally",
+    "productDescription": "The ASUS ROG Ally is a state-of-the-art gaming device built by ASUS, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/ASUS ROG Ally.png",
+    "productRating": 4.4,
+    "productPrice": 710000
+  },
+  {
+    "productId": "P0094",
+    "productName": "Lenovo Legion Go",
+    "productDescription": "The Lenovo Legion Go is a state-of-the-art gaming device built by Lenovo, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/Lenovo Legion Go.png",
+    "productRating": 4.4,
+    "productPrice": 736000
+  },
+  {
+    "productId": "P0095",
+    "productName": "Razer Edge",
+    "productDescription": "The Razer Edge is a state-of-the-art gaming device built by Razer, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/Razer Edge.png",
+    "productRating": 4.2,
+    "productPrice": 745000
+  },
+  {
+    "productId": "P0096",
+    "productName": "Xbox Series S",
+    "productDescription": "The Xbox Series S is a state-of-the-art gaming device built by Xbox, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/Xbox Series S.png",
+    "productRating": 4.5,
+    "productPrice": 349000
+  },
+  {
+    "productId": "P0097",
+    "productName": "PlayStation 5 Slim",
+    "productDescription": "The PlayStation 5 Slim is a state-of-the-art gaming device built by PlayStation, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/PlayStation 5 Slim.png",
+    "productRating": 4.8,
+    "productPrice": 550000
+  },
+  {
+    "productId": "P0098",
+    "productName": "Nintendo Switch Lite",
+    "productDescription": "The Nintendo Switch Lite is a state-of-the-art gaming device built by Nintendo, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/Nintendo Switch Lite.png",
+    "productRating": 4.7,
+    "productPrice": 479000
+  },
+  {
+    "productId": "P0099",
+    "productName": "Alienware m18 Gaming Laptop",
+    "productDescription": "The Alienware m18 Gaming Laptop is a state-of-the-art gaming device built by Alienware, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/Alienware m18 Gaming Laptop.png",
+    "productRating": 4.3,
+    "productPrice": 639000
+  },
+  {
+    "productId": "P0100",
+    "productName": "HP OMEN 35L",
+    "productDescription": "The HP OMEN 35L is a state-of-the-art gaming device built by HP, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/HP OMEN 35L.png",
+    "productRating": 4.4,
+    "productPrice": 444000
+  },
+  {
+    "productId": "P0101",
+    "productName": "Corsair One i300",
+    "productDescription": "The Corsair One i300 is a state-of-the-art gaming device built by Corsair, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/Corsair One i300.png",
+    "productRating": 4.5,
+    "productPrice": 687000
+  },
+  {
+    "productId": "P0102",
+    "productName": "MSI MEG Trident X",
+    "productDescription": "The MSI MEG Trident X is a state-of-the-art gaming device built by MSI, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/MSI MEG Trident X.png",
+    "productRating": 3.7,
+    "productPrice": 297000
+  },
+  {
+    "productId": "P0103",
+    "productName": "Dell G5 Gaming Desktop",
+    "productDescription": "The Dell G5 Gaming Desktop is a state-of-the-art gaming device built by Dell, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/Dell G5 Gaming Desktop.png",
+    "productRating": 4.5,
+    "productPrice": 619000
+  },
+  {
+    "productId": "P0104",
+    "productName": "CyberPowerPC Gamer Xtreme",
+    "productDescription": "The CyberPowerPC Gamer Xtreme is a state-of-the-art gaming device built by CyberPowerPC, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/CyberPowerPC Gamer Xtreme.png",
+    "productRating": 4.6,
+    "productPrice": 605000
+  },
+  {
+    "productId": "P0105",
+    "productName": "ROG Phone 7 Ultimate",
+    "productDescription": "The ROG Phone 7 Ultimate is a state-of-the-art gaming device built by ROG, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/ROG Phone 7 Ultimate.png",
+    "productRating": 3.6,
+    "productPrice": 261000
+  },
+  {
+    "productId": "P0106",
+    "productName": "Logitech G Pro X Superlight",
+    "productDescription": "The Logitech G Pro X Superlight is a state-of-the-art gaming device built by Logitech, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/Logitech G Pro X Superlight.png",
+    "productRating": 4.1,
+    "productPrice": 638000
+  },
+  {
+    "productId": "P0107",
+    "productName": "SteelSeries Apex Pro TKL",
+    "productDescription": "The SteelSeries Apex Pro TKL is a state-of-the-art gaming device built by SteelSeries, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/SteelSeries Apex Pro TKL.png",
+    "productRating": 4.3,
+    "productPrice": 530000
+  },
+  {
+    "productId": "P0108",
+    "productName": "HyperX Cloud Alpha",
+    "productDescription": "The HyperX Cloud Alpha is a state-of-the-art gaming device built by HyperX, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/HyperX Cloud Alpha.png",
+    "productRating": 4.7,
+    "productPrice": 792000
+  },
+  {
+    "productId": "P0109",
+    "productName": "Razer Kraken V3",
+    "productDescription": "The Razer Kraken V3 is a state-of-the-art gaming device built by Razer, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/Razer Kraken V3.png",
+    "productRating": 4.3,
+    "productPrice": 599000
+  },
+  {
+    "productId": "P0110",
+    "productName": "Microsoft Xbox Elite Wireless Controller Series 2",
+    "productDescription": "The Microsoft Xbox Elite Wireless Controller Series 2 is a state-of-the-art gaming device built by Microsoft, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "gaming",
+    "productImage": "/products/gaming/Microsoft Xbox Elite Wireless Controller Series 2.png",
+    "productRating": 4.3,
+    "productPrice": 457000
+  },
+  {
+    "productId": "P0111",
+    "productName": "Sony WH-1000XM5",
+    "productDescription": "The Sony WH-1000XM5 is a state-of-the-art headphones device built by Sony, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Sony WH-1000XM5.png",
+    "productRating": 3.6,
+    "productPrice": 112000
+  },
+  {
+    "productId": "P0112",
+    "productName": "Bose QuietComfort Ultra",
+    "productDescription": "The Bose QuietComfort Ultra is a state-of-the-art headphones device built by Bose, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Bose QuietComfort Ultra.png",
+    "productRating": 4.1,
+    "productPrice": 308000
+  },
+  {
+    "productId": "P0113",
+    "productName": "Apple AirPods Max",
+    "productDescription": "The Apple AirPods Max is a state-of-the-art headphones device built by Apple, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Apple AirPods Max.png",
+    "productRating": 3.8,
+    "productPrice": 105000
+  },
+  {
+    "productId": "P0114",
+    "productName": "Bowers & Wilkins PX7 S2",
+    "productDescription": "The Bowers & Wilkins PX7 S2 is a state-of-the-art headphones device built by Bowers, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Bowers & Wilkins PX7 S2.png",
+    "productRating": 3.5,
+    "productPrice": 293000
+  },
+  {
+    "productId": "P0115",
+    "productName": "Sennheiser Momentum 4",
+    "productDescription": "The Sennheiser Momentum 4 is a state-of-the-art headphones device built by Sennheiser, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Sennheiser Momentum 4.png",
+    "productRating": 4.8,
+    "productPrice": 224000
+  },
+  {
+    "productId": "P0116",
+    "productName": "Beats Solo Pro",
+    "productDescription": "The Beats Solo Pro is a state-of-the-art headphones device built by Beats, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Beats Solo Pro.png",
+    "productRating": 3.7,
+    "productPrice": 298000
+  },
+  {
+    "productId": "P0117",
+    "productName": "Jabra Elite 85h",
+    "productDescription": "The Jabra Elite 85h is a state-of-the-art headphones device built by Jabra, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Jabra Elite 85h.png",
+    "productRating": 4.5,
+    "productPrice": 572000
+  },
+  {
+    "productId": "P0118",
+    "productName": "AKG N700NC M2",
+    "productDescription": "The AKG N700NC M2 is a state-of-the-art headphones device built by AKG, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/AKG N700NC M2.png",
+    "productRating": 3.8,
+    "productPrice": 549000
+  },
+  {
+    "productId": "P0119",
+    "productName": "Shure AONIC 50",
+    "productDescription": "The Shure AONIC 50 is a state-of-the-art headphones device built by Shure, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Shure AONIC 50.png",
+    "productRating": 4.3,
+    "productPrice": 358000
+  },
+  {
+    "productId": "P0120",
+    "productName": "Bang & Olufsen Beoplay H95",
+    "productDescription": "The Bang & Olufsen Beoplay H95 is a state-of-the-art headphones device built by Bang, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Bang & Olufsen Beoplay H95.png",
+    "productRating": 4.2,
+    "productPrice": 483000
+  },
+  {
+    "productId": "P0121",
+    "productName": "Skullcandy Crusher 360",
+    "productDescription": "The Skullcandy Crusher 360 is a state-of-the-art headphones device built by Skullcandy, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Skullcandy Crusher 360.png",
+    "productRating": 4.1,
+    "productPrice": 394000
+  },
+  {
+    "productId": "P0122",
+    "productName": "HyperX Cloud II",
+    "productDescription": "The HyperX Cloud II is a state-of-the-art headphones device built by HyperX, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/HyperX Cloud II.png",
+    "productRating": 4.7,
+    "productPrice": 138000
+  },
+  {
+    "productId": "P0123",
+    "productName": "Logitech G733",
+    "productDescription": "The Logitech G733 is a state-of-the-art headphones device built by Logitech, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Logitech G733.png",
+    "productRating": 4.2,
+    "productPrice": 373000
+  },
+  {
+    "productId": "P0124",
+    "productName": "Anker Soundcore Life Q30",
+    "productDescription": "The Anker Soundcore Life Q30 is a state-of-the-art headphones device built by Anker, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Anker Soundcore Life Q30.png",
+    "productRating": 4.8,
+    "productPrice": 586000
+  },
+  {
+    "productId": "P0125",
+    "productName": "Marshall Major IV",
+    "productDescription": "The Marshall Major IV is a state-of-the-art headphones device built by Marshall, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Marshall Major IV.png",
+    "productRating": 4.0,
+    "productPrice": 444000
+  },
+  {
+    "productId": "P0126",
+    "productName": "Philips Fidelio L2",
+    "productDescription": "The Philips Fidelio L2 is a state-of-the-art headphones device built by Philips, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Philips Fidelio L2.png",
+    "productRating": 3.6,
+    "productPrice": 312000
+  },
+  {
+    "productId": "P0127",
+    "productName": "Audio-Technica ATH-M50xBT2",
+    "productDescription": "The Audio-Technica ATH-M50xBT2 is a state-of-the-art headphones device built by Audio-Technica, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Audio-Technica ATH-M50xBT2.png",
+    "productRating": 4.2,
+    "productPrice": 136000
+  },
+  {
+    "productId": "P0128",
+    "productName": "Samsung Galaxy Buds 2 Pro",
+    "productDescription": "The Samsung Galaxy Buds 2 Pro is a state-of-the-art headphones device built by Samsung, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Samsung Galaxy Buds 2 Pro.png",
+    "productRating": 4.2,
+    "productPrice": 37000
+  },
+  {
+    "productId": "P0129",
+    "productName": "Google Pixel Buds Pro",
+    "productDescription": "The Google Pixel Buds Pro is a state-of-the-art headphones device built by Google, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Google Pixel Buds Pro.png",
+    "productRating": 4.8,
+    "productPrice": 568000
+  },
+  {
+    "productId": "P0130",
+    "productName": "Sony WF-1000XM4",
+    "productDescription": "The Sony WF-1000XM4 is a state-of-the-art headphones device built by Sony, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Sony WF-1000XM4.png",
+    "productRating": 4.5,
+    "productPrice": 176000
+  },
+  {
+    "productId": "P0131",
+    "productName": "Bose QuietComfort Earbuds II",
+    "productDescription": "The Bose QuietComfort Earbuds II is a state-of-the-art headphones device built by Bose, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/Bose QuietComfort Earbuds II.png",
+    "productRating": 3.8,
+    "productPrice": 482000
+  },
+  {
+    "productId": "P0132",
+    "productName": "JBL Live Pro+ TWS",
+    "productDescription": "The JBL Live Pro+ TWS is a state-of-the-art headphones device built by JBL, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "headphones",
+    "productImage": "/products/headphones/JBL Live Pro+ TWS.png",
+    "productRating": 4.4,
+    "productPrice": 339000
+  },
+  {
+    "productId": "P0133",
+    "productName": "Logitech MX Master 3S",
+    "productDescription": "The Logitech MX Master 3S is a state-of-the-art computer accessories device built by Logitech, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/Logitech MX Master 3S.png",
+    "productRating": 4.3,
+    "productPrice": 235000
+  },
+  {
+    "productId": "P0134",
+    "productName": "Razer DeathAdder V3",
+    "productDescription": "The Razer DeathAdder V3 is a state-of-the-art computer accessories device built by Razer, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/Razer DeathAdder V3.png",
+    "productRating": 3.9,
+    "productPrice": 90000
+  },
+  {
+    "productId": "P0135",
+    "productName": "Corsair K100 RGB",
+    "productDescription": "The Corsair K100 RGB is a state-of-the-art computer accessories device built by Corsair, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/Corsair K100 RGB.png",
+    "productRating": 3.7,
+    "productPrice": 995000
+  },
+  {
+    "productId": "P0136",
+    "productName": "SteelSeries QcK Mouse Pad",
+    "productDescription": "The SteelSeries QcK Mouse Pad is a state-of-the-art computer accessories device built by SteelSeries, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/SteelSeries QcK Mouse Pad.png",
+    "productRating": 4.8,
+    "productPrice": 365000
+  },
+  {
+    "productId": "P0137",
+    "productName": "Anker 7-in-1 USB-C Hub",
+    "productDescription": "The Anker 7-in-1 USB-C Hub is a state-of-the-art computer accessories device built by Anker, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/Anker 7-in-1 USB-C Hub.png",
+    "productRating": 3.7,
+    "productPrice": 675000
+  },
+  {
+    "productId": "P0138",
+    "productName": "Apple Magic Keyboard",
+    "productDescription": "The Apple Magic Keyboard is a state-of-the-art computer accessories device built by Apple, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/Apple Magic Keyboard.png",
+    "productRating": 4.6,
+    "productPrice": 820000
+  },
+  {
+    "productId": "P0139",
+    "productName": "Dell UltraSharp 27 Monitor",
+    "productDescription": "The Dell UltraSharp 27 Monitor is a state-of-the-art computer accessories device built by Dell, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/Dell UltraSharp 27 Monitor.png",
+    "productRating": 4.0,
+    "productPrice": 665000
+  },
+  {
+    "productId": "P0140",
+    "productName": "BenQ PD2700U",
+    "productDescription": "The BenQ PD2700U is a state-of-the-art computer accessories device built by BenQ, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/BenQ PD2700U.png",
+    "productRating": 4.3,
+    "productPrice": 930000
+  },
+  {
+    "productId": "P0141",
+    "productName": "Microsoft Surface Dock 2",
+    "productDescription": "The Microsoft Surface Dock 2 is a state-of-the-art computer accessories device built by Microsoft, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/Microsoft Surface Dock 2.png",
+    "productRating": 4.3,
+    "productPrice": 919000
+  },
+  {
+    "productId": "P0142",
+    "productName": "Kingston NV1 SSD 1TB",
+    "productDescription": "The Kingston NV1 SSD 1TB is a state-of-the-art computer accessories device built by Kingston, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/Kingston NV1 SSD 1TB.png",
+    "productRating": 4.6,
+    "productPrice": 469000
+  },
+  {
+    "productId": "P0143",
+    "productName": "Seagate Backup Plus 4TB",
+    "productDescription": "The Seagate Backup Plus 4TB is a state-of-the-art computer accessories device built by Seagate, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/Seagate Backup Plus 4TB.png",
+    "productRating": 4.3,
+    "productPrice": 784000
+  },
+  {
+    "productId": "P0144",
+    "productName": "Samsung T7 Portable SSD",
+    "productDescription": "The Samsung T7 Portable SSD is a state-of-the-art computer accessories device built by Samsung, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/Samsung T7 Portable SSD.png",
+    "productRating": 3.6,
+    "productPrice": 358000
+  },
+  {
+    "productId": "P0145",
+    "productName": "TP-Link Archer AX6000",
+    "productDescription": "The TP-Link Archer AX6000 is a state-of-the-art computer accessories device built by TP-Link, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/TP-Link Archer AX6000.png",
+    "productRating": 4.2,
+    "productPrice": 513000
+  },
+  {
+    "productId": "P0146",
+    "productName": "Netgear Nighthawk AX12",
+    "productDescription": "The Netgear Nighthawk AX12 is a state-of-the-art computer accessories device built by Netgear, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/Netgear Nighthawk AX12.png",
+    "productRating": 4.0,
+    "productPrice": 97000
+  },
+  {
+    "productId": "P0147",
+    "productName": "ASUS ROG Swift PG279QM",
+    "productDescription": "The ASUS ROG Swift PG279QM is a state-of-the-art computer accessories device built by ASUS, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/ASUS ROG Swift PG279QM.png",
+    "productRating": 4.6,
+    "productPrice": 812000
+  },
+  {
+    "productId": "P0148",
+    "productName": "LG Ultrawide 34WN80C-B",
+    "productDescription": "The LG Ultrawide 34WN80C-B is a state-of-the-art computer accessories device built by LG, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/LG Ultrawide 34WN80C-B.png",
+    "productRating": 4.8,
+    "productPrice": 157000
+  },
+  {
+    "productId": "P0149",
+    "productName": "Anker PowerExpand Elite",
+    "productDescription": "The Anker PowerExpand Elite is a state-of-the-art computer accessories device built by Anker, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/Anker PowerExpand Elite.png",
+    "productRating": 4.1,
+    "productPrice": 38000
+  },
+  {
+    "productId": "P0150",
+    "productName": "AmazonBasics HDMI Cable",
+    "productDescription": "The AmazonBasics HDMI Cable is a state-of-the-art computer accessories device built by AmazonBasics, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/AmazonBasics HDMI Cable.png",
+    "productRating": 3.7,
+    "productPrice": 799000
+  },
+  {
+    "productId": "P0151",
+    "productName": "Elgato Stream Deck MK.2",
+    "productDescription": "The Elgato Stream Deck MK.2 is a state-of-the-art computer accessories device built by Elgato, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/Elgato Stream Deck MK.2.png",
+    "productRating": 4.6,
+    "productPrice": 724000
+  },
+  {
+    "productId": "P0152",
+    "productName": "Blue Yeti USB Mic",
+    "productDescription": "The Blue Yeti USB Mic is a state-of-the-art computer accessories device built by Blue, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/Blue Yeti USB Mic.png",
+    "productRating": 4.0,
+    "productPrice": 449000
+  },
+  {
+    "productId": "P0153",
+    "productName": "Logitech Brio 4K Webcam",
+    "productDescription": "The Logitech Brio 4K Webcam is a state-of-the-art computer accessories device built by Logitech, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/Logitech Brio 4K Webcam.png",
+    "productRating": 3.8,
+    "productPrice": 309000
+  },
+  {
+    "productId": "P0154",
+    "productName": "Razer Goliathus Extended Chroma",
+    "productDescription": "The Razer Goliathus Extended Chroma is a state-of-the-art computer accessories device built by Razer, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "computer accessories",
+    "productImage": "/products/computeraccessories/Razer Goliathus Extended Chroma.png",
+    "productRating": 3.8,
+    "productPrice": 791000
+  },
+  {
+    "productId": "P0155",
+    "productName": "Canon EOS R6 Mark II",
+    "productDescription": "The Canon EOS R6 Mark II is a state-of-the-art cameras device built by Canon, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Canon EOS R6 Mark II.png",
+    "productRating": 4.2,
+    "productPrice": 2659000
+  },
+  {
+    "productId": "P0156",
+    "productName": "Sony A7 IV",
+    "productDescription": "The Sony A7 IV is a state-of-the-art cameras device built by Sony, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Sony A7 IV.png",
+    "productRating": 3.9,
+    "productPrice": 6454000
+  },
+  {
+    "productId": "P0157",
+    "productName": "Nikon Z6 II",
+    "productDescription": "The Nikon Z6 II is a state-of-the-art cameras device built by Nikon, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Nikon Z6 II.png",
+    "productRating": 3.8,
+    "productPrice": 3661000
+  },
+  {
+    "productId": "P0158",
+    "productName": "Fujifilm X-T5",
+    "productDescription": "The Fujifilm X-T5 is a state-of-the-art cameras device built by Fujifilm, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Fujifilm X-T5.png",
+    "productRating": 4.0,
+    "productPrice": 2051000
+  },
+  {
+    "productId": "P0159",
+    "productName": "Panasonic Lumix S5",
+    "productDescription": "The Panasonic Lumix S5 is a state-of-the-art cameras device built by Panasonic, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Panasonic Lumix S5.png",
+    "productRating": 4.0,
+    "productPrice": 3411000
+  },
+  {
+    "productId": "P0160",
+    "productName": "Olympus OM-1",
+    "productDescription": "The Olympus OM-1 is a state-of-the-art cameras device built by Olympus, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Olympus OM-1.png",
+    "productRating": 4.5,
+    "productPrice": 3697000
+  },
+  {
+    "productId": "P0161",
+    "productName": "Leica Q2",
+    "productDescription": "The Leica Q2 is a state-of-the-art cameras device built by Leica, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Leica Q2.png",
+    "productRating": 3.7,
+    "productPrice": 5201000
+  },
+  {
+    "productId": "P0162",
+    "productName": "Canon EOS 90D",
+    "productDescription": "The Canon EOS 90D is a state-of-the-art cameras device built by Canon, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Canon EOS 90D.png",
+    "productRating": 4.4,
+    "productPrice": 5585000
+  },
+  {
+    "productId": "P0163",
+    "productName": "Sony RX100 VII",
+    "productDescription": "The Sony RX100 VII is a state-of-the-art cameras device built by Sony, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Sony RX100 VII.png",
+    "productRating": 4.1,
+    "productPrice": 1649000
+  },
+  {
+    "productId": "P0164",
+    "productName": "GoPro HERO12 Black",
+    "productDescription": "The GoPro HERO12 Black is a state-of-the-art cameras device built by GoPro, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/GoPro HERO12 Black.png",
+    "productRating": 4.8,
+    "productPrice": 328000
+  },
+  {
+    "productId": "P0165",
+    "productName": "DJI Osmo Action 4",
+    "productDescription": "The DJI Osmo Action 4 is a state-of-the-art cameras device built by DJI, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/DJI Osmo Action 4.png",
+    "productRating": 3.8,
+    "productPrice": 3398000
+  },
+  {
+    "productId": "P0166",
+    "productName": "Nikon D780",
+    "productDescription": "The Nikon D780 is a state-of-the-art cameras device built by Nikon, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Nikon D780.png",
+    "productRating": 4.8,
+    "productPrice": 325000
+  },
+  {
+    "productId": "P0167",
+    "productName": "Fujifilm GFX 100S",
+    "productDescription": "The Fujifilm GFX 100S is a state-of-the-art cameras device built by Fujifilm, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Fujifilm GFX 100S.png",
+    "productRating": 3.9,
+    "productPrice": 1410000
+  },
+  {
+    "productId": "P0168",
+    "productName": "Pentax K-1 Mark II",
+    "productDescription": "The Pentax K-1 Mark II is a state-of-the-art cameras device built by Pentax, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Pentax K-1 Mark II.png",
+    "productRating": 4.3,
+    "productPrice": 500000
+  },
+  {
+    "productId": "P0169",
+    "productName": "Sigma fp L",
+    "productDescription": "The Sigma fp L is a state-of-the-art cameras device built by Sigma, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Sigma fp L.png",
+    "productRating": 4.5,
+    "productPrice": 5016000
+  },
+  {
+    "productId": "P0170",
+    "productName": "Canon PowerShot G7 X Mark III",
+    "productDescription": "The Canon PowerShot G7 X Mark III is a state-of-the-art cameras device built by Canon, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Canon PowerShot G7 X Mark III.png",
+    "productRating": 4.0,
+    "productPrice": 277000
+  },
+  {
+    "productId": "P0171",
+    "productName": "Sony ZV-1",
+    "productDescription": "The Sony ZV-1 is a state-of-the-art cameras device built by Sony, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Sony ZV-1.png",
+    "productRating": 3.5,
+    "productPrice": 4753000
+  },
+  {
+    "productId": "P0172",
+    "productName": "Panasonic Lumix GH6",
+    "productDescription": "The Panasonic Lumix GH6 is a state-of-the-art cameras device built by Panasonic, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Panasonic Lumix GH6.png",
+    "productRating": 4.2,
+    "productPrice": 4332000
+  },
+  {
+    "productId": "P0173",
+    "productName": "Leica SL2-S",
+    "productDescription": "The Leica SL2-S is a state-of-the-art cameras device built by Leica, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Leica SL2-S.png",
+    "productRating": 5.0,
+    "productPrice": 2965000
+  },
+  {
+    "productId": "P0174",
+    "productName": "Olympus PEN-F",
+    "productDescription": "The Olympus PEN-F is a state-of-the-art cameras device built by Olympus, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Olympus PEN-F.png",
+    "productRating": 4.4,
+    "productPrice": 2526000
+  },
+  {
+    "productId": "P0175",
+    "productName": "Blackmagic Pocket Cinema 4K",
+    "productDescription": "The Blackmagic Pocket Cinema 4K is a state-of-the-art cameras device built by Blackmagic, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/Blackmagic Pocket Cinema 4K.png",
+    "productRating": 3.7,
+    "productPrice": 5303000
+  },
+  {
+    "productId": "P0176",
+    "productName": "DJI Pocket 2",
+    "productDescription": "The DJI Pocket 2 is a state-of-the-art cameras device built by DJI, offering top-tier performance, cutting-edge features, ergonomic design, impressive battery life, and seamless connectivity to elevate your experience.",
+    "category": "cameras",
+    "productImage": "/products/cameras/DJI Pocket 2.png",
+    "productRating": 4.6,
+    "productPrice": 814000
+  }
+]
