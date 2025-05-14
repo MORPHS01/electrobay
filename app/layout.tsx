@@ -3,6 +3,8 @@ import { Geist, Geist_Mono, Poppins, Kaushan_Script } from "next/font/google";
 import "./globals.css";
 import { Breadcrumbs, Footer, ModifiedChildren, NavBarProvider, ScrollToTop, WishListModal } from "@/components";
 import { ContextProvider } from "@/contexts/contextprovider";
+import ToastProvider from "@/contexts/ToastProvider";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -45,6 +47,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
           <Footer/>
 
           <WishListModal/>
+          <ToastProvider/>
         </ContextProvider>
       </body>
     </html>

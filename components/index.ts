@@ -7,3 +7,4 @@ export { default as Breadcrumbs } from "./utility/breadcrumbs";
 export { default as ModifiedChildren } from "./modifiedchildren";
 export { default as NavBarProvider } from "./navigation/navbarprovider";
 export { default as WishListModal } from "./wishlist/wishlistmodal";
+export { default as AddToCart } from "./utility/addToButtons/addtocart";

@@ -4,11 +4,15 @@ import data from "@/data/products.json";
 import Icon from "@/public/svg/svgicons";
 
 export default function Home() {
+
+  const result = data.find(item => item.productId.toLowerCase().includes("p0001"))
+
   return (
     <main className="flex min-h-screen flex-col items-center">
       <Image src="/images/hero-image.jpg" alt="hero-image" width={1000} height={1000} className="w-full h-screen"/>
     
 
+      <p>{result?.productName}</p>
 
 
 

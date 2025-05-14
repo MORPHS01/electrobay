@@ -24,7 +24,7 @@ type navbarProps = {
 function Navbar({name, email, image}: navbarProps) {
   const pathname = usePathname()
   const isNotHomePage = pathname !== '/'
-  const {mounted, wishListValue, cartValue, userProfile, setUserProfile, setIsWishListOpen} = useStateContext();
+  const {mounted, wishListItems, cartItems, userProfile, setUserProfile, setIsWishListOpen} = useStateContext();
   const [isUserProfileVisible, setIsUserProfileVisible] = useState(false);
 
   const categories = ["All Products", "Laptops", "Smart phones", "TV", "Gaming", "Smart watches", "Headphones", "Computer Accessories", "Cameras"]
@@ -60,14 +60,14 @@ function Navbar({name, email, image}: navbarProps) {
             {/* Wishlist */}
             <div className="relative" onClick={() => setIsWishListOpen(true)}>
               <Icon name="heart"/>
-              { wishListValue.length > 99 &&  mounted ?
+              { wishListItems.length > 99 &&  mounted ?
                 <div className="absolute cursor-pointer px-[5px] py-0 -right-1.5 -top-1.5 rounded-full bg-[#78B1E4] dark:bg-[#2D75B4]">
                   <p className="text-xs">99+</p>
                 </div>
                 :
-                wishListValue.length > 0 &&  mounted ?
+                wishListItems.length > 0 &&  mounted ?
                 <div className="absolute cursor-pointer px-[5px] py-0 -right-1.5 -top-1.5 rounded-full bg-[#78B1E4] dark:bg-[#2D75B4]">
-                  <p className="text-xs">{wishListValue.length}</p>
+                  <p className="text-xs">{wishListItems.length}</p>
                 </div>
                 : null
               }
@@ -84,14 +84,14 @@ function Navbar({name, email, image}: navbarProps) {
             {/* Cart */}
             <div className="relative" onClick={() => redirect("/cart")}>
               <Icon name="cart"/>
-              { cartValue.length > 99 &&  mounted ?
+              { cartItems.length > 99 &&  mounted ?
                 <div className="absolute cursor-pointer px-[5px] py-0 -right-1.5 -top-1.5 rounded-full bg-[#78B1E4] dark:bg-[#2D75B4]">
                   <p className="text-xs">99+</p>
                 </div>
                 :
-                cartValue.length > 0 &&  mounted ?
+                cartItems.length > 0 &&  mounted ?
                 <div className="absolute cursor-pointer px-[5px] py-0 -right-1.5 -top-1.5 rounded-full bg-[#78B1E4] dark:bg-[#2D75B4]">
-                  <p className="text-xs">{cartValue.length}</p>
+                  <p className="text-xs">{cartItems.length}</p>
                 </div>
                 : null
               }

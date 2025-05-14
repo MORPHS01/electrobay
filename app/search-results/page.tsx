@@ -4,11 +4,12 @@ import Link from 'next/link'
 import { ProductType } from '@/types/productTypes'
 import Image from 'next/image'
 import Icon from '@/public/svg/svgicons'
+import { AddToCart } from '@/components'
 
 export default function SearchResults() {
   const searchParams = useSearchParams()
   const query = searchParams.get('query')
-  const stringifiedResults = localStorage.getItem("searchResults")
+  const stringifiedResults = localStorage.getItem("searchResults");
   const results = stringifiedResults ? JSON.parse(stringifiedResults) : redirect("/categories");
 
   return (
@@ -45,7 +46,10 @@ export default function SearchResults() {
                     <h2 className="text-lg font-medium mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400">{result.productName}</h2>
                     <p className="text-gray-600 dark:text-gray-400 text-sm mb-2 capitalize">{result.category}</p>
                     <p className="text-lg font-semibold"><span className="mr-[3px]">₦</span>{result.productPrice.toLocaleString()}</p>
-                    <div className="flex mt-2">{Array.from({ length: Math.trunc(result.productRating) }, (_, index) => <Icon key={index} name="star" noPointer noHover/>)} {result.productRating - Math.trunc(result.productRating) > 0.5 && <Icon name="halfStar" noPointer noHover/>}</div>
+                    <div className="flex justify-between items-center">
+                      <div className="flex mt-2">{Array.from({ length: Math.trunc(result.productRating) }, (_, index) => <Icon key={index} name="star" noPointer noHover/>)} {result.productRating - Math.trunc(result.productRating) > 0.5 && <Icon name="halfStar" noPointer noHover/>}</div>
+                      <AddToCart product={result} icon/>
+                    </div>
                   </div>
                 </div>
               </Link>

@@ -2,12 +2,13 @@
 import { createContext, useContext, useState, useEffect, ReactNode, Dispatch, SetStateAction } from "react";
 import { ThemeProvider } from "next-themes"
 import { useLocalStorage } from "@/hooks/uselocalstorage";
+import { ProductType } from "@/types/productTypes";
 
 type StateContextProps = {
-  wishListValue: string[];
-  setWishListValue: Dispatch<SetStateAction<string[]>>;  
-  cartValue: string[];
-  setCartValue: Dispatch<SetStateAction<string[]>>;
+  wishListItems: ProductType[];
+  setWishListItems: Dispatch<SetStateAction<ProductType[]>>;  
+  cartItems: ProductType[];
+  setCartItems: Dispatch<SetStateAction<ProductType[]>>;
   mounted: boolean;
   setMounted: Dispatch<SetStateAction<boolean>>;
   userProfile: boolean;
@@ -27,8 +28,8 @@ interface ContextProviderProps {
 }
 
 export const ContextProvider: React.FC<ContextProviderProps> = ({ children }) => {
-  const [wishListValue, setWishListValue] = useLocalStorage<string[]>("wishlist", []);
-  const [cartValue, setCartValue] = useLocalStorage<string[]>("cart", []);
+  const [wishListItems, setWishListItems] = useLocalStorage<ProductType[]>("wishlist", []);
+  const [cartItems, setCartItems] = useLocalStorage<ProductType[]>("cart", []);
   const [mounted, setMounted] = useState(false);
   const [userProfile, setUserProfile] = useState(false);
   const [isWishListOpen, setIsWishListOpen] = useState(false);
@@ -36,7 +37,7 @@ export const ContextProvider: React.FC<ContextProviderProps> = ({ children }) =>
   useEffect(() => setMounted(true), []);
 
   return (
-    <StateContext.Provider value={{ wishListValue, setWishListValue, cartValue, setCartValue, mounted, setMounted, userProfile, setUserProfile, isWishListOpen, setIsWishListOpen }}>
+    <StateContext.Provider value={{ wishListItems, setWishListItems, cartItems, setCartItems, mounted, setMounted, userProfile, setUserProfile, isWishListOpen, setIsWishListOpen }}>
       <ThemeProvider attribute="class">
         {children}
       </ThemeProvider>
