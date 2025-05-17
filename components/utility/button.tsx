@@ -39,7 +39,7 @@ export default function Button(props: buttonProps) {
   const bgHover = isFill ? (props as filledButton).bgHover : undefined;
   const textColor = isFill ? (props as filledButton).textColor || "white" : undefined;
   const outLineColor = !isFill ? (props as outlinedButton).outLineColor : undefined;
-  const scaledUp = scaleOnHover || isFill ? true : false
+  const scaledUp = scaleOnHover !== undefined ? scaleOnHover : isFill;
 
   return (
     <button

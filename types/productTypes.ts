@@ -6,4 +6,5 @@ export type ProductType = {
   productImage: string;
   productRating: number;
   productPrice: number;
+  quantity?: number;
 }

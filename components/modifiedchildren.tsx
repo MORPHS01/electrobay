@@ -7,7 +7,7 @@ function ModifiedChildren({ children, }: Readonly<{ children: React.ReactNode; }
   const isHome = pathname === '/'
  
   return (
-    <main className={`pb-[80px] flex-grow ${!isHome && "pt-[180px] px-[7%]"}`}>
+    <main className={`pb-[80px] flex-1 ${!isHome && "pt-[180px] px-[7%]"}`}>
       {children}
     </main>
   )

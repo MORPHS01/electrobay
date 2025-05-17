@@ -118,7 +118,28 @@ const icons = {
       <path d="M10 1V15.9243L4.438 19L5.5 12.4757L1 7.88013L7.219 6.92429L10 1Z"/>
     </svg>
   ),
-    // example: () => (
+  trash: () => (
+    <svg className={navIconClassName} width={24} height={24} viewBox="0 0 0.48 0.48" xmlns="http://www.w3.org/2000/svg">
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M0.3 0.09h0.09v0.03h-0.03v0.27l-0.03 0.03H0.12l-0.03 -0.03V0.12H0.06V0.09h0.09V0.06a0.03 0.03 0 0 1 0.03 -0.03h0.09a0.03 0.03 0 0 1 0.03 0.03zM0.27 0.06H0.18v0.03h0.09zM0.12 0.39h0.21V0.12H0.12zm0.06 -0.24H0.15v0.21h0.03zm0.03 0h0.03v0.21H0.21zm0.06 0h0.03v0.21H0.27z"
+      />
+    </svg>
+  ),
+  // example: () => (
+  //   <svg className={navIconClassName} width={24} height={24} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  //   </svg>
+  // ),
+  // example: () => (
+  //   <svg className={navIconClassName} width={24} height={24} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  //   </svg>
+  // ),
+  // example: () => (
+  //   <svg className={navIconClassName} width={24} height={24} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  //   </svg>
+  // ),
+  // example: () => (
   //   <svg className={navIconClassName} width={24} height={24} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
   //   </svg>
   // ),

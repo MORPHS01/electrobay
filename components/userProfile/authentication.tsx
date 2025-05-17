@@ -28,7 +28,7 @@ export function LoggedIn({name, email, image, visible}: loggedInProps) {
           <h1 className="text-xl font-poppins font-semibold text-gray-800 dark:text-white">{name}</h1>
           <p className="text-gray-600 dark:text-gray-400 font-poppins">{email}</p>
         </div>
-        <Button bgColor="#FF0000" bgHover="#FF4747" loading={isPending} spinnerColor="white" onClick={() => startTransition(() => logout())}>Sign Out</Button>
+        <Button bgColor="#FF0000" bgHover="#FF4747" scaleOnHover={false} loading={isPending} spinnerColor="white" onClick={() => startTransition(() => logout())}>Sign Out</Button>
       </div>
     </main>
   )

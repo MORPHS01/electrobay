@@ -18,6 +18,7 @@ function ToastProvider() {
       pauseOnHover
       theme={theme === "light" ? "light" : "dark"}
       transition={Bounce}
+      toastClassName="!min-w-fit !px-6 !py-4 !z-[10000]"
     />
   )
 }

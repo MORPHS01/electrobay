@@ -84,14 +84,15 @@ function Navbar({name, email, image}: navbarProps) {
             {/* Cart */}
             <div className="relative" onClick={() => redirect("/cart")}>
               <Icon name="cart"/>
-              { cartItems.length > 99 &&  mounted ?
+              { cartItems.length > 0 &&  mounted ?
                 <div className="absolute cursor-pointer px-[5px] py-0 -right-1.5 -top-1.5 rounded-full bg-[#78B1E4] dark:bg-[#2D75B4]">
-                  <p className="text-xs">99+</p>
-                </div>
-                :
-                cartItems.length > 0 &&  mounted ?
-                <div className="absolute cursor-pointer px-[5px] py-0 -right-1.5 -top-1.5 rounded-full bg-[#78B1E4] dark:bg-[#2D75B4]">
-                  <p className="text-xs">{cartItems.length}</p>
+                  <p className="text-xs">
+                    {cartItems.reduce((sum, item) => sum + (item.quantity ?? 0), 0) > 99 ? 
+                      "99+" 
+                      : 
+                      cartItems.reduce((sum, item) => sum + (item.quantity ?? 0), 0)
+                    }
+                  </p>
                 </div>
                 : null
               }

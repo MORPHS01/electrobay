@@ -13,6 +13,7 @@ export default function Home() {
     
 
       <p>{result?.productName}</p>
+      <p>{data.reduce((sum, item) => sum + item.productPrice , 0).toLocaleString()}</p>
 
 
 

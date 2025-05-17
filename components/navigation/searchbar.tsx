@@ -5,6 +5,7 @@ import React, { useRef, useState, useMemo } from "react";
 import data from "@/data/products.json";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { useLocalStorage } from "@/hooks/uselocalstorage";
 
 
 
@@ -48,7 +49,7 @@ export function DesktopSearchBar({categories}: {categories: string[]}) {
 
   // Search Algorithm
   const items = data;
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useLocalStorage("searchQuery", "");
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const filteredItems = useMemo(() => items.filter(item => item.productName.toLowerCase().includes(query.toLowerCase())), [query, items]);
   const categoryFilter = selectedCategory !== "All Products" ? filteredItems.filter(item => selectedCategory.trim().toLowerCase().includes(item.category.trim().toLowerCase())) : filteredItems
@@ -74,7 +75,7 @@ export function DesktopSearchBar({categories}: {categories: string[]}) {
         </div>
       </section>
 
-      <section className="flex-grow relative">
+      <section className="flex-1 relative">
         <input type="text" onChange={handleChange} value={query} onKeyDown={handleKeyDown} onFocus={() => setIsSearchOpen(true)} onBlur={() => setTimeout(() => setIsSearchOpen(false), 140)}  placeholder="I'm Searching for..." className="outline-none rounded-r-[8px] px-[1rem] w-full h-full bg-[#e6e6e6] dark:bg-[#12152F]"/>
         <div className="absolute w-fit h-[90%] top-1/2 -translate-y-1/2 right-[1rem] flex items-center justify-center bg-[#e6e6e6] dark:bg-[#12152F]">
           <Link href={{pathname: "/search-results", query: {query: query}}} onClick={() => localStorage.setItem("searchResults", JSON.stringify(categoryFilter))}>
@@ -154,7 +155,7 @@ export function MobileSearchBar({categories}: {categories: string[]}) {
 
   // Search Algorithm
   const items = data;
-  const [mobileQuery, setMobileQuery] = useState("");
+  const [mobileQuery, setMobileQuery] = useLocalStorage("mobileSearchQuery", "");
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const filteredItems = useMemo(() => items.filter(item => item.productName.toLowerCase().includes(mobileQuery.toLowerCase())), [mobileQuery, items]);
   const categoryFilter = selectedCategory !== "All Products" ? filteredItems.filter(item => selectedCategory.trim().toLowerCase().includes(item.category.trim().toLowerCase())) : filteredItems
@@ -180,7 +181,7 @@ export function MobileSearchBar({categories}: {categories: string[]}) {
         </div>
       </section>
 
-      <section className="flex-grow relative">
+      <section className="flex-1 relative">
         <input type="text" onChange={handleChange} value={mobileQuery} onKeyDown={handleKeyDown} onFocus={() => setIsSearchOpen(true)} onBlur={() => setTimeout(() => setIsSearchOpen(false), 140)} placeholder="I'm Searching for..." className="outline-none rounded-br-[8px] px-[1rem] w-full h-full bg-[#e6e6e6] dark:bg-[#12152F]"/>
         <div className="absolute w-fit h-[90%] top-1/2 -translate-y-1/2 right-[1rem] flex items-center justify-center bg-[#e6e6e6] dark:bg-[#12152F]">
           <Link href={{pathname: "/search-results", query: {query: mobileQuery}}} onClick={() => localStorage.setItem("searchResults", JSON.stringify(categoryFilter))}>

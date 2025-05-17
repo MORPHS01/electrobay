@@ -8,3 +8,4 @@ export { default as ModifiedChildren } from "./modifiedchildren";
 export { default as NavBarProvider } from "./navigation/navbarprovider";
 export { default as WishListModal } from "./wishlist/wishlistmodal";
 export { default as AddToCart } from "./utility/addToButtons/addtocart";
+export { default as AddToWishList } from "./utility/addToButtons/addtowishlist";
