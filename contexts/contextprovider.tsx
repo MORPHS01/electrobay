@@ -1,12 +1,20 @@
 "use client";
-import { createContext, useContext, useState, useEffect, ReactNode, Dispatch, SetStateAction } from "react";
-import { ThemeProvider } from "next-themes"
+import {
+  createContext,
+  useContext,
+  useState,
+  useEffect,
+  ReactNode,
+  Dispatch,
+  SetStateAction,
+} from "react";
+import { ThemeProvider } from "next-themes";
 import { useLocalStorage } from "@/hooks/uselocalstorage";
 import { ProductType } from "@/types/productTypes";
 
 type StateContextProps = {
   wishListItems: ProductType[];
-  setWishListItems: Dispatch<SetStateAction<ProductType[]>>;  
+  setWishListItems: Dispatch<SetStateAction<ProductType[]>>;
   cartItems: ProductType[];
   setCartItems: Dispatch<SetStateAction<ProductType[]>>;
   mounted: boolean;
@@ -15,7 +23,7 @@ type StateContextProps = {
   setUserProfile: Dispatch<SetStateAction<boolean>>;
   isWishListOpen: boolean;
   setIsWishListOpen: Dispatch<SetStateAction<boolean>>;
-}
+};
 
 const defaultState = {
   mounted: false,
@@ -27,8 +35,13 @@ interface ContextProviderProps {
   children: ReactNode;
 }
 
-export const ContextProvider: React.FC<ContextProviderProps> = ({ children }) => {
-  const [wishListItems, setWishListItems] = useLocalStorage<ProductType[]>("wishlist", []);
+export const ContextProvider: React.FC<ContextProviderProps> = ({
+  children,
+}) => {
+  const [wishListItems, setWishListItems] = useLocalStorage<ProductType[]>(
+    "wishlist",
+    []
+  );
   const [cartItems, setCartItems] = useLocalStorage<ProductType[]>("cart", []);
   const [mounted, setMounted] = useState(false);
   const [userProfile, setUserProfile] = useState(false);
@@ -37,10 +50,21 @@ export const ContextProvider: React.FC<ContextProviderProps> = ({ children }) =>
   useEffect(() => setMounted(true), []);
 
   return (
-    <StateContext.Provider value={{ wishListItems, setWishListItems, cartItems, setCartItems, mounted, setMounted, userProfile, setUserProfile, isWishListOpen, setIsWishListOpen }}>
-      <ThemeProvider attribute="class">
-        {children}
-      </ThemeProvider>
+    <StateContext.Provider
+      value={{
+        wishListItems,
+        setWishListItems,
+        cartItems,
+        setCartItems,
+        mounted,
+        setMounted,
+        userProfile,
+        setUserProfile,
+        isWishListOpen,
+        setIsWishListOpen,
+      }}
+    >
+      <ThemeProvider attribute="class">{children}</ThemeProvider>
     </StateContext.Provider>
   );
 };

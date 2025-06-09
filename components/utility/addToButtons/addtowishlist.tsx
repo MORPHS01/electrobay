@@ -1,24 +1,36 @@
-"use client"
+"use client";
 import { useStateContext } from "@/contexts/contextprovider";
 import { ProductType } from "@/types/productTypes";
-import { toast } from 'react-toastify';
+import { toast } from "react-toastify";
+import { twMerge } from "tailwind-merge";
 
 type AddToWishListProps = {
   product: ProductType;
-  productCard?: boolean
+  productCard?: boolean;
   text?: boolean;
   icon?: boolean;
-}
+  className?: string;
+};
 
-function AddToWishList({product, productCard = false, text, icon}: AddToWishListProps) {
+function AddToWishList({
+  product,
+  productCard = false,
+  text,
+  icon,
+  className,
+}: AddToWishListProps) {
   const { wishListItems, setWishListItems } = useStateContext();
-  const itemInWishList = wishListItems.find(item => item.productId === product.productId);
+  const itemInWishList = wishListItems.find(
+    (item) => item.productId === product.productId
+  );
 
   function addItems() {
     if (itemInWishList) {
-      setWishListItems(prev => prev.filter(item => item.productId !== product.productId))
+      setWishListItems((prev) =>
+        prev.filter((item) => item.productId !== product.productId)
+      );
     } else {
-      setWishListItems(prev => [...prev, product])
+      setWishListItems((prev) => [...prev, product]);
     }
   }
 
@@ -32,33 +44,42 @@ function AddToWishList({product, productCard = false, text, icon}: AddToWishList
       toast.success("Item has been added to your Wishlist");
     }
   }
-    
-
 
   // Default Add to WishList button
-  if (text) return (
-    <button 
-      onClick={handleClick}
-      className="cursor-pointer px-6 py-3 w-fit flex gap-[10px] tracking-wider rounded-lg active:scale-90 border border-[#2A2B2A44] dark:border-[#4A97DB44]"
-    >
-      {text && "Add to WishList"} {icon && (itemInWishList !== undefined ? <HeartFilled/> : <Heart/>)}
-    </button>
-  );
+  if (text)
+    return (
+      <button
+        onClick={handleClick}
+        className={`${twMerge(
+          "cursor-pointer px-6 py-3 w-fit flex gap-[10px] tracking-wider rounded-lg active:scale-90 border border-[#2A2B2A44] dark:border-[#4A97DB44]",
+          className
+        )}`}
+      >
+        {text && "Add to WishList"}{" "}
+        {icon && (itemInWishList !== undefined ? <HeartFilled /> : <Heart />)}
+      </button>
+    );
 
-  if (icon && !text) return (
-    <button 
-      onClick={handleClick}
-      className={`cursor-pointer p-2 rounded-full transition-colors ${ productCard ? "m-2 bg-[#ADADAD]/50 dark:bg-[#2D75B4]/30 backdrop-blur-lg hover:bg-[#ADADAD]/90 dark:hover:bg-[#2D75B4]/90" : "hover:bg-gray-100 dark:hover:bg-gray-800"}`}
-    >
-      {itemInWishList !== undefined ? <HeartFilled/> : <Heart/>}
-    </button>
-  );
+  if (icon && !text)
+    return (
+      <button
+        onClick={handleClick}
+        className={`${twMerge(
+          "cursor-pointer p-2 rounded-full transition-colors",
+          productCard
+            ? "m-2 bg-[#ADADAD]/50 dark:bg-[#2D75B4]/30 backdrop-blur-lg hover:bg-[#ADADAD]/90 dark:hover:bg-[#2D75B4]/90"
+            : "hover:bg-gray-100 dark:hover:bg-gray-800",
+          className
+        )}`}
+      >
+        {itemInWishList !== undefined ? <HeartFilled /> : <Heart />}
+      </button>
+    );
 
   return null;
 }
 
 export default AddToWishList;
-
 
 const Heart = () => (
   <svg

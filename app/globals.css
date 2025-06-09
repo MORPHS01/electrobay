@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
-
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
@@ -9,23 +8,22 @@
   --font-kaushanScript: var(--font-kaushanScript);
 }
 
-
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 10px;
   background-color: transparent;
 }
-  
+
 ::-webkit-scrollbar-thumb {
-  background-color: #78B1E4;
+  background-color: #78b1e4;
   width: 10px;
-  border: 2px solid #78B1E4;
+  border: 2px solid #78b1e4;
   border-radius: 10px;
 }
 
 .dark ::-webkit-scrollbar-thumb {
-  background-color: #2D75B4;
+  background-color: #2d75b4;
   width: 10px;
-  border: 2px solid #2D75B4;
+  border: 2px solid #2d75b4;
   border-radius: 10px;
 }
 
@@ -39,5 +37,13 @@
   -moz-appearance: textfield;
 }
 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
-
+/* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

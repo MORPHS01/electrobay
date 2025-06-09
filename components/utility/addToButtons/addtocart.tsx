@@ -1,23 +1,34 @@
-"use client"
+"use client";
 import { useStateContext } from "@/contexts/contextprovider";
 import Icon from "@/public/svg/svgicons";
 import { ProductType } from "@/types/productTypes";
-import { toast } from 'react-toastify';
-import { useState, useEffect } from 'react';
+import { toast } from "react-toastify";
+import { useState, useEffect } from "react";
+import { twMerge } from "tailwind-merge";
 
 type AddToCartProps = {
   product: ProductType;
   text?: boolean;
   icon?: boolean;
-}
+  className?: string;
+  buttonHover?: boolean;
+};
 
-function AddToCart({product, text, icon}: AddToCartProps) {
+function AddToCart({
+  product,
+  text,
+  icon,
+  className,
+  buttonHover = true,
+}: AddToCartProps) {
   const { cartItems, setCartItems } = useStateContext();
   const [quantity, setQuantity] = useState(0);
 
   // Check if item is in cart and update quantity
   useEffect(() => {
-    const itemInCart = cartItems.find(item => item.productId === product.productId);
+    const itemInCart = cartItems.find(
+      (item) => item.productId === product.productId
+    );
     if (itemInCart) {
       setQuantity(itemInCart.quantity || 0);
     }
@@ -25,15 +36,15 @@ function AddToCart({product, text, icon}: AddToCartProps) {
 
   function updateQuantity(newQuantity: number) {
     if (newQuantity < 0) return;
-    
-    setCartItems(prevItems => {
+
+    setCartItems((prevItems) => {
       const existingItemIndex = prevItems.findIndex(
-        item => item.productId === product.productId
+        (item) => item.productId === product.productId
       );
 
       if (newQuantity === 0) {
         // Remove item from cart
-        return prevItems.filter(item => item.productId !== product.productId);
+        return prevItems.filter((item) => item.productId !== product.productId);
       }
 
       if (existingItemIndex !== -1) {
@@ -41,7 +52,7 @@ function AddToCart({product, text, icon}: AddToCartProps) {
         const updatedItems = [...prevItems];
         updatedItems[existingItemIndex] = {
           ...prevItems[existingItemIndex],
-          quantity: newQuantity
+          quantity: newQuantity,
         };
         return updatedItems;
       }
@@ -63,14 +74,23 @@ function AddToCart({product, text, icon}: AddToCartProps) {
   // Show quantity controls if item is in cart
   if (quantity > 0) {
     return (
-      <div className="flex items-center gap-2 bg-white dark:bg-[#0F1125] rounded-lg border border-[#2A2B2A44] dark:border-[#4A97DB44]">
+      <div
+        className={`${twMerge(
+          "flex justify-between items-center gap-2 bg-white dark:bg-[#0F1125] rounded-lg border border-[#2A2B2A44] dark:border-[#4A97DB44]",
+          className
+        )}`}
+      >
         <button
           onClick={(e) => {
             e.stopPropagation();
             e.preventDefault();
             updateQuantity(quantity - 1);
           }}
-          className="px-2.5 py-1.5 hover:bg-gray-100 dark:hover:bg-[#1d2047] rounded-l-lg transition-colors"
+          className={`${
+            buttonHover
+              ? "hover:bg-gray-100 dark:hover:bg-[#1d2047]"
+              : "hover:bg-transparent dark:hover:bg-transparent"
+          } px-2.5 py-1.5 rounded-l-lg transition-colors cursor-pointer`}
         >
           -
         </button>
@@ -91,7 +111,11 @@ function AddToCart({product, text, icon}: AddToCartProps) {
             e.preventDefault();
             updateQuantity(quantity + 1);
           }}
-          className="px-2.5 py-1.5 hover:bg-gray-100 dark:hover:bg-[#1d2047] rounded-r-lg transition-colors"
+          className={`${
+            buttonHover
+              ? "hover:bg-gray-100 dark:hover:bg-[#1d2047]"
+              : "hover:bg-transparent dark:hover:bg-transparent"
+          } px-2.5 py-1.5 rounded-l-lg transition-colors cursor-pointer`}
         >
           +
         </button>
@@ -100,23 +124,31 @@ function AddToCart({product, text, icon}: AddToCartProps) {
   }
 
   // Default Add to Cart button
-  if (text) return (
-    <button 
-      onClick={handleClick}
-      className="px-6 py-3 w-fit flex gap-[10px] cursor-pointer tracking-wider rounded-lg active:scale-90 border border-[#2A2B2A44] dark:border-[#4A97DB44]"
-    >
-      {text && "Add to Cart"} {icon && <Icon name="cart"/>}
-    </button>
-  );
+  if (text)
+    return (
+      <button
+        onClick={handleClick}
+        className={`${twMerge(
+          "px-6 py-3 w-fit flex justify-center gap-[10px] cursor-pointer tracking-wider rounded-lg active:scale-90 border border-[#2A2B2A44] dark:border-[#4A97DB44]",
+          className
+        )}`}
+      >
+        {text && "Add to Cart"} {icon && <Icon name="cart" />}
+      </button>
+    );
 
-  if (icon && !text) return (
-    <button 
-      onClick={handleClick}
-      className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
-    >
-      <Icon name="cart" noHover/>
-    </button>
-  );
+  if (icon && !text)
+    return (
+      <button
+        onClick={handleClick}
+        className={`${twMerge(
+          "p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors",
+          className
+        )}`}
+      >
+        <Icon name="cart" noHover />
+      </button>
+    );
 
   return null;
 }
