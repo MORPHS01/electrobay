@@ -27,7 +27,7 @@ export default function ProductCard({
       }`}
     >
       <div className="bg-white dark:bg-[#0F1125] rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-103">
-        <div className="relative h-48 max-sm:h-30 p-5 max-sm:p-2 w-full bg-[#efefef] dark:bg-[#1b2048]">
+        <div className="relative h-48 max-sm:h-32 p-5 max-sm:p-2 w-full bg-[#efefef] dark:bg-[#1b2048]">
           <Image
             src={product.productImage}
             alt={product.productName}
@@ -39,7 +39,7 @@ export default function ProductCard({
             <AddToWishList product={product} productCard icon />
           </div>
         </div>
-        <div className="p-4 max-sm:p-2">
+        <div className="p-4 max-sm:p-[10px]">
           <h2 className="text-lg max-sm:text-base font-medium mb-2 max-sm:mb-1 group-hover:text-blue-600 dark:group-hover:text-blue-400 line-clamp-1">
             {product.productName}
           </h2>
@@ -50,7 +50,7 @@ export default function ProductCard({
             <span className="mr-[3px] font-poppins ">₦</span>
             {product.productPrice.toLocaleString()}
           </p>
-          <div className="flex max-sm:flex-col-reverse max-sm:gap-[5px] max-sm:items-start max-sm:justify-start justify-between items-center">
+          <div className="flex max-sm:flex-col max-sm:gap-[5px] max-sm:items-start max-sm:justify-start justify-between items-center">
             <div className="flex">
               {Array.from(
                 { length: Math.trunc(product.productRating) },

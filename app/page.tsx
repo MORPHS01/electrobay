@@ -92,7 +92,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col gap-[60px] items-center">
       <section
-        className={`w-full h-screen bg-cover bg-center bg-no-repeat flex flex-col items-start justify-center max-sm:justify-end p-[40px] max-sm:p-[15px] max-sm:py-[20%] max-[25rem]:py-[10%] relative ${
+        className={`w-full h-screen bg-cover bg-center bg-no-repeat flex flex-col items-start justify-center max-sm:justify-end p-[40px] max-sm:p-[15px] max-sm:py-[20%] max-[25rem]:p-[10px] max-[25rem]:py-[10%] relative ${
           getRandomNumber() === 1 ? hero1 : hero2
         }`}
       >
@@ -114,7 +114,7 @@ export default function Home() {
           </Link>
         </article>
 
-        <article className="flex flex-wrap gap-3 justify-between shadow-md shadow-black/20 dark:shadow-[#78B1E4]/20 items-center w-[90%] mx-auto backdrop-blur-md bg-white/65 dark:bg-[#000022]/65 rounded-lg px-[32px] py-[24px] max-sm:px-[20px] max-sm:py-[18px] transition-colors duration-300 ease-in-out">
+        <article className="flex flex-wrap gap-3 justify-between shadow-md shadow-black/20 dark:shadow-[#78B1E4]/20 items-center w-[90%] max-sm:w-[95%] mx-auto backdrop-blur-md bg-white/65 dark:bg-[#000022]/65 rounded-lg px-[32px] py-[24px] max-sm:px-[20px] max-[25rem]:px-[16px] max-sm:py-[18px] max-[25rem]:py-[14px] transition-colors duration-300 ease-in-out">
           {categoriesIcon.map((cat, i) => (
             <Link
               href={`/categories/${cat.href}`}

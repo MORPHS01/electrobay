@@ -98,7 +98,7 @@ function ProductContent() {
                 type="fill"
                 bgColor="#1A4DE1"
                 bgHover="#4A97DB"
-                className="w-full"
+                className="w-full h-full"
                 scaleOnHover={false}
               >
                 Buy now
@@ -130,7 +130,7 @@ function ProductContent() {
       <article className="flex flex-col gap-[40px]">
         <DescriptionDropDown
           openByDefault
-          header="Product information & specifications"
+          header="Information & Specifications"
         >
           <aside className="flex max-md:flex-col items-start gap-[10%]">
             <ul className="flex-1 list-disc list-outside ps-5 flex flex-col gap-[20px] max-md:gap-[15px]">
@@ -165,7 +165,7 @@ function ProductContent() {
           </aside>
         </DescriptionDropDown>
 
-        <DescriptionDropDown header="Description">
+        <DescriptionDropDown header="Product description">
           {product.productDescription}
         </DescriptionDropDown>
 
