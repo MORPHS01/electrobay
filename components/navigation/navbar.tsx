@@ -62,7 +62,7 @@ function Navbar({ name, email, image }: navbarProps) {
 
   return (
     <main className="sticky z-[10000] -top-[25px] flex justify-center">
-      <nav className="absolute top-[32px] flex flex-col gap-3 shadow-md shadow-black/20 dark:shadow-[#78B1E4]/20 items-center w-[85%] backdrop-blur-sm bg-white/75 dark:bg-[#000022]/85 rounded-lg max-md:rounded-b-none py-[14px] max-md:py-[10px]">
+      <nav className="absolute top-[32px] flex flex-col gap-3 shadow-md shadow-black/20 dark:shadow-[#78B1E4]/20 items-center w-[85%] max-sm:w-[95%] backdrop-blur-sm bg-white/75 dark:bg-[#000022]/85 rounded-lg max-md:rounded-b-none py-[14px] max-md:py-[10px] max-sm:py-[6px]">
         <div className="flex justify-between w-full px-8 max-md:px-4">
           <Link href="/" className="flex items-center">
             <ElectrobayLogo />

@@ -38,6 +38,7 @@ function WishListModal() {
     }
 
     setCartItems([...cartItems, ...newCartItems]);
+    setWishListItems([]);
     router.push("/cart");
     setIsWishListOpen(false);
     toast.success(
@@ -133,6 +134,7 @@ function WishListModal() {
             </p>
             <Link
               href="/categories"
+              onClick={() => setIsWishListOpen(false)}
               className="mt-4 inline-block px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
             >
               Continue Shopping

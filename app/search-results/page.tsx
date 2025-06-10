@@ -22,10 +22,10 @@ function SearchResultsContent() {
   return (
     <section className="max-w-7xl mx-auto">
       <div className="flex max-md:flex-col items-center max-md:items-start justify-between mb-6">
-        <h1 className="text-2xl font-semibold">
+        <h1 className="text-2xl max-sm:text-lg font-semibold">
           Search Results for &quot;{query}&quot;
         </h1>
-        <p className="text-gray-600 dark:text-gray-400">
+        <p className="text-gray-600 dark:text-gray-400 max-sm:text-sm">
           {results.length} results found
         </p>
       </div>

@@ -241,7 +241,7 @@ function Cart() {
                 id="bottomFixed"
                 className="fixed z-[1000] bottom-0 left-0 w-full px-[10%] py-5 bg-white dark:bg-[#0F1125] rounded-t-3xl border border-[#E5E5E5] dark:border-[#181C3A]"
               >
-                <section className="flex justify-between items-center h-full ">
+                <section className="flex max-[25rem]:flex-col gap-[10px] justify-between items-center h-full ">
                   <Link
                     href={{
                       pathname: "/check-out",

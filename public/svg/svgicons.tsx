@@ -4,8 +4,9 @@
 const navIconClassName =
   "fill-[#4B4B4B] dark:fill-[#d0d0d0] w-[24px] max-md:w-[20px] transition-all duration-200 ease-in-out";
 const categoriesIconClassName =
-  "fill-[#4B4B4B] group-hover:fill-[#155dfc] dark:fill-[#d0d0d0] group-hover:dark:fill-[#51a2ff]";
-const perksIconClassName = "fill-[#424242] dark:fill-[#e5e5e5]";
+  "fill-[#4B4B4B] group-hover:fill-[#155dfc] dark:fill-[#d0d0d0] group-hover:dark:fill-[#51a2ff] w-[24px] max-md:w-[20px]";
+const perksIconClassName =
+  "fill-[#424242] dark:fill-[#e5e5e5] w-[24px] max-md:w-[20px]";
 const starIconClassName =
   "fill-[#FFDA0A] dark:fill-[#CCAD00] w-[20px] max-md:w-[17px] transition-all duration-200 ease-in-out";
 

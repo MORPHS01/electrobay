@@ -1,35 +1,48 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { JSX, SVGProps } from 'react';
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { JSX, SVGProps } from "react";
 
 export default function Breadcrumbs() {
   const pathname = usePathname();
-  const segments = pathname.split('/').filter(Boolean);
+  const segments = pathname.split("/").filter(Boolean);
 
   // Hide on homepage
-  if (pathname === '/') return null;
+  if (pathname === "/") return null;
 
   const pathArray = segments.map((seg, i) => {
-    const href = '/' + segments.slice(0, i + 1).join('/');
-    const name = decodeURIComponent(seg).replace(/-/g, ' ').replace(/:/g, '');
+    const href = "/" + segments.slice(0, i + 1).join("/");
+    const name = decodeURIComponent(seg).replace(/-/g, " ").replace(/:/g, "");
     return { name: name, href };
   });
 
   return (
-    <nav className="flex items-center space-x-2 text-sm text-gray-500 dark:text-[#b4b6be]" aria-label="Breadcrumb">
-      <Link href="/" className="hover:text-black dark:hover:text-white flex items-center gap-1">
-        <HomeSvg/>
+    <nav
+      className="flex items-center space-x-2 text-sm max-sm:text-[10px] text-gray-500 dark:text-[#b4b6be]"
+      aria-label="Breadcrumb"
+    >
+      <Link
+        href="/"
+        className="hover:text-black dark:hover:text-white flex items-center gap-1"
+      >
+        <HomeSvg />
         <span>Home</span>
       </Link>
       {pathArray.map((segment, i) => (
         <span key={i} className="flex items-center gap-2">
-          <span><RightArrow/></span>
+          <span>
+            <RightArrow />
+          </span>
           {i === pathArray.length - 1 ? (
-            <span className="text-gray-950 dark:text-gray-50">{segment.name}</span>
+            <span className="text-gray-950 dark:text-gray-50">
+              {segment.name}
+            </span>
           ) : (
-            <Link href={segment.href} className="hover:text-black dark:hover:text-white transition-all duration-200 ease-in-out">
+            <Link
+              href={segment.href}
+              className="hover:text-black dark:hover:text-white transition-all duration-200 ease-in-out"
+            >
               {segment.name}
             </Link>
           )}
@@ -39,7 +52,7 @@ export default function Breadcrumbs() {
   );
 }
 
-function HomeSvg(){
+function HomeSvg() {
   return (
     <main className="">
       <svg
@@ -56,10 +69,12 @@ function HomeSvg(){
         </g>
       </svg>
     </main>
-  )
+  );
 }
 
-const RightArrow = (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => (
+const RightArrow = (
+  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
+) => (
   <svg
     width="15px"
     height="13px"
@@ -72,4 +87,3 @@ const RightArrow = (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) =>
     <path d="M5 14L12 7.5L5 1" strokeLinecap="square" />
   </svg>
 );
-

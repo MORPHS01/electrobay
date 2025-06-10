@@ -127,7 +127,7 @@ function Footer() {
           </Link>
         </p>
         <p className="font-kaushanScript">
-          <span>with heavy inspiration from</span>{" "}
+          <span>with inspiration from</span>{" "}
           <Link
             target="_blank"
             href="https://www.figma.com/design/qzBJem9zgmbntF6X2QAM2G/NEXTPICK-%7C-Electronics-E-Commerce-Website--Community-?m=auto&t=Ftyw1wxHlIHPyhar-6"
