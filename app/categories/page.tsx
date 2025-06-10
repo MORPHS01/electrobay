@@ -27,7 +27,7 @@ function Categories() {
                 className="absolute inset-0 z-[10] object-center object-cover rounded-xl"
               />
               <div className="opacity-0 absolute inset-0 group-hover:opacity-100 bg-black/65 backdrop-blur-xs transition-all 300 ease-in-out rounded-xl z-[100]" />
-              <p className="capitalize text-2xl font-poppins font-bold text-white group-hover:text-[#559EDD] z-[100]">
+              <p className="capitalize text-2xl max-sm:text-lg font-poppins font-bold text-white group-hover:text-[#559EDD] z-[100]">
                 {category === "tv" ? "Televisions" : category}
               </p>
             </article>

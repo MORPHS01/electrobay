@@ -81,7 +81,7 @@ function WishListModal() {
                 pathname: `/categories/${wishListItem.category}/${wishListItem.productName}`,
                 query: { productInfo: JSON.stringify(wishListItem) },
               }}
-              className="group flex items-center gap-8 p-[24px] min-h-[220px] bg-white dark:bg-[#0F1125] rounded-lg border border-[#E5E5E5] dark:border-[#181C3A]"
+              className="group flex items-center gap-8 p-[24px] max-sm:p-[10px] min-h-[220px] max-sm:min-h-[200px] bg-white dark:bg-[#0F1125] rounded-lg border border-[#E5E5E5] dark:border-[#181C3A]"
             >
               <div className="w-[27%] max-md:w-[30%] h-full">
                 <Image
@@ -94,11 +94,11 @@ function WishListModal() {
               </div>
 
               <div className="flex flex-col h-full justify-between flex-1">
-                <span className="flex flex-col gap-[1px]">
-                  <h1 className="font-semibold font-poppins text-xl max-md:text-lg group-hover:text-blue-600 dark:group-hover:text-blue-400">
+                <span className="flex flex-col gap-[3px]">
+                  <h1 className="font-semibold font-poppins text-xl max-md:text-lg max-sm:text-base group-hover:text-blue-600 dark:group-hover:text-blue-400">
                     {wishListItem.productName}
                   </h1>
-                  <p className="line-clamp-1 max-md:line-clamp-2 text-gray-600 dark:text-gray-400 text-sm">
+                  <p className="line-clamp-1 max-md:line-clamp-2 text-gray-600 dark:text-gray-400 text-sm max-sm:text-xs">
                     {wishListItem.productDescription}
                   </p>
                 </span>
@@ -143,13 +143,14 @@ function WishListModal() {
         )}
 
         {items.length > 0 && (
-          <div className="sticky -bottom-12 max-md:-bottom-6 w-full bg-[#f0f0f0] dark:bg-[#0C0C1E] px-10 py-4 rounded-2xl">
-            <aside className="flex justify-between">
+          <div className="sticky -bottom-12 max-md:-bottom-6 max-sm:-bottom-2 w-full bg-[#f0f0f0] dark:bg-[#0C0C1E] px-10 max-sm:px-6.5 py-4 rounded-2xl">
+            <aside className="flex max-sm:flex-col gap-[10px] justify-between">
               <Button
                 type="fill"
                 bgColor="#155dfc"
                 bgHover="#1447e6"
                 scaleOnHover={false}
+                className="max-sm:w-full"
                 onClick={handleTransfer}
               >
                 Transfer all to cart
@@ -160,6 +161,7 @@ function WishListModal() {
                 bgColor="#FF0000"
                 bgHover="#FF4747"
                 scaleOnHover={false}
+                className="max-sm:w-full"
                 onClick={() => {
                   setWishListItems([]);
                   setIsWishListOpen(false);

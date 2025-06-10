@@ -14,7 +14,7 @@ function Footer() {
 
   return (
     <footer className="flex flex-col items-center bg-white dark:bg-[#000022] rounded-t-[20px]">
-      <section className="flex max-md:flex-col max-md:gap-[25px] justify-between text-[#939393] dark:text-[#BBD8F2] py-[55px] max-md:py-[37px] w-[90%] max-md:w-[80%]">
+      <section className="flex max-md:flex-col max-md:gap-[25px] justify-between text-[#939393] dark:text-[#BBD8F2] py-[55px] max-md:py-[37px] w-[90%] max-md:w-[80%] max-sm:w-[95%]">
         <div className="flex flex-col gap-[8px] max-md:hidden">
           <p className={headerClassName}>E-commerce support</p>
           <p>ElectroBay</p>
