@@ -52,9 +52,9 @@ export const ContextProvider: React.FC<ContextProviderProps> = ({
   return (
     <StateContext.Provider
       value={{
-        wishListItems,
+        wishListItems: Array.isArray(wishListItems) ? wishListItems : [],
         setWishListItems,
-        cartItems,
+        cartItems: Array.isArray(cartItems) ? cartItems : [],
         setCartItems,
         mounted,
         setMounted,

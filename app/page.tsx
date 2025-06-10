@@ -97,7 +97,7 @@ export default function Home() {
         }`}
       >
         <div className="absolute inset-0 bg-black/30" />
-        <article className="mt-[13%] max-md:mt-[15%] font-poppins w-[45%] max-lg:w-[60%] max-md:w-full max-md:text-center max-w-[700px] z-[100] mb-[90px] max-[25rem]:mb-[60px]">
+        <article className="mt-[13%] max-md:mt-[15%] mx-[6%] max-md:mx-0 font-poppins w-[45%] max-lg:w-[60%] max-md:w-full max-md:text-center max-w-[700px] z-[100] mb-[90px] max-[25rem]:mb-[60px]">
           <p className="mb-[16px] font-semibold text-5xl max-sm:text-4xl text-white leading-[120%]">
             Powering Your World, One Gadget at a Time
           </p>

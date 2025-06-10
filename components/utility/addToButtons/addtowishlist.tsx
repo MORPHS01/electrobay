@@ -20,9 +20,10 @@ function AddToWishList({
   className,
 }: AddToWishListProps) {
   const { wishListItems, setWishListItems } = useStateContext();
-  const itemInWishList = wishListItems.find(
-    (item) => item.productId === product.productId
-  );
+
+  const itemInWishList = Array.isArray(wishListItems)
+    ? wishListItems.find((item) => item.productId === product.productId)
+    : undefined;
 
   function addItems() {
     if (itemInWishList) {

@@ -1,5 +1,5 @@
 "use client";
-import { useEffect } from "react";
+import { Suspense, useEffect } from "react";
 import Image from "next/image";
 import { redirect, useSearchParams } from "next/navigation";
 import Button from "@/components/utility/button";
@@ -8,6 +8,7 @@ import {
   AddToWishList,
   DescriptionDropDown,
   DisplayBlock,
+  Loading,
   ProductCard,
 } from "@/components";
 import Link from "next/link";
@@ -43,7 +44,7 @@ const specificationList = [
   ["Input Voltage", "100-240V AC"],
 ];
 
-function Product() {
+function ProductContent() {
   const searchParams = useSearchParams();
   const StringifiedProduct = searchParams.get("productInfo");
   const product = StringifiedProduct
@@ -345,9 +346,17 @@ function Product() {
   );
 }
 
-export default Product;
+export default function Product() {
+  return (
+    <main className="px-8 py-6">
+      <Suspense fallback={<Loading />}>
+        <ProductContent />
+      </Suspense>
+    </main>
+  );
+}
 
-export function Check() {
+function Check() {
   return (
     <svg
       width="25"
@@ -368,7 +377,7 @@ export function Check() {
   );
 }
 
-export function Star() {
+function Star() {
   return (
     <svg
       width="13"
@@ -382,7 +391,7 @@ export function Star() {
   );
 }
 
-export function BigStar() {
+function BigStar() {
   return (
     <svg
       width="25"
@@ -396,7 +405,7 @@ export function BigStar() {
   );
 }
 
-export function Thumb({ direction = "up" }: { direction?: "up" | "down" }) {
+function Thumb({ direction = "up" }: { direction?: "up" | "down" }) {
   return (
     <svg
       width="24"

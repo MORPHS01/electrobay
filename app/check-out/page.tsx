@@ -1,8 +1,8 @@
 "use client";
-import { Input } from "@/components";
+import { Input, Loading } from "@/components";
 import PayWithPaystack from "@/hooks/paystackHook";
 import { useSearchParams } from "next/navigation";
-import { useState } from "react";
+import { Suspense, useState } from "react";
 
 type FormState = {
   firstName: string;
@@ -12,7 +12,7 @@ type FormState = {
   deliveryAddress: string;
 };
 
-export default function CheckOut() {
+function CheckOutContent() {
   const searchParams = useSearchParams();
   const totalAmount = searchParams.get("totalAmount") || 0;
   const shippingFee =
@@ -140,6 +140,16 @@ export default function CheckOut() {
           </span>
         </div>
       </section>
+    </main>
+  );
+}
+
+export default function CheckOut() {
+  return (
+    <main className="px-8 py-6">
+      <Suspense fallback={<Loading />}>
+        <CheckOutContent />
+      </Suspense>
     </main>
   );
 }

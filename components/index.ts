@@ -13,3 +13,4 @@ export { default as DescriptionDropDown } from "./utility/descriptionDropDown";
 export { default as DisplayBlock } from "./utility/displayBlock";
 export { default as ProductCard } from "./utility/productCard";
 export { default as Input } from "./utility/input";
+export { default as Loading } from "./loading/loading";

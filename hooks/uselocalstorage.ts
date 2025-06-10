@@ -4,6 +4,10 @@ export function useLocalStorage<T>(key: string, initialValue: T) {
   // Get stored value or set to initialValue
   const [storedValue, setStoredValue] = useState<T>(() => {
     try {
+      if (typeof window === "undefined") {
+        const item = " ";
+        return item;
+      }
       const item = window.localStorage.getItem(key);
       return item ? JSON.parse(item) : initialValue;
     } catch (error) {

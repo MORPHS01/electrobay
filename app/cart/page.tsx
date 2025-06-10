@@ -10,7 +10,10 @@ import { useEffect } from "react";
 function Cart() {
   const { cartItems, setCartItems } = useStateContext();
 
-  const subTotal = cartItems.reduce(
+  // Add null check and ensure cartItems is an array
+  const items = Array.isArray(cartItems) ? cartItems : [];
+
+  const subTotal = items.reduce(
     (sum, item) => sum + item.productPrice * (item.quantity ?? 1),
     0
   );
@@ -54,9 +57,9 @@ function Cart() {
       <section className="flex max-md:flex-col-reverse justify-between gap-[6%] max-lg:gap-[3%] w-full">
         {/* cartItems List */}
         <aside className="flex justify-center flex-1">
-          {cartItems.length > 0 ? (
+          {items.length > 0 ? (
             <div className="flex flex-col gap-5">
-              {cartItems.map((cartItem, i) => (
+              {items.map((cartItem, i) => (
                 <Link
                   key={i}
                   href={{
@@ -130,7 +133,7 @@ function Cart() {
         </aside>
 
         {/* Info List Desktop */}
-        {cartItems.length > 0 && (
+        {items.length > 0 && (
           <aside className="w-[30%] max-lg:w-[35%] max-md:hidden h-fit sticky top-[200px]">
             <div className="px-[24px] py-[48px] w-full flex flex-col gap-[16px] bg-white dark:bg-[#0F1125] rounded-lg border border-[#E5E5E5] dark:border-[#181C3A]">
               <span className="flex justify-between">
@@ -191,7 +194,7 @@ function Cart() {
         )}
 
         {/* Info List Mobile */}
-        {cartItems.length > 0 && (
+        {items.length > 0 && (
           <aside className="hidden max-md:block w-full mb-10">
             <div className="px-[20px] py-[20px] w-full flex flex-col gap-[13px] bg-white dark:bg-[#0F1125] rounded-lg border border-[#E5E5E5] dark:border-[#181C3A]">
               <span>

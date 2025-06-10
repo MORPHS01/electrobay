@@ -47,6 +47,9 @@ function WishListModal() {
     );
   }
 
+  // Ensure wishListItems is always an array
+  const items = Array.isArray(wishListItems) ? wishListItems : [];
+
   return (
     <section
       className={`fixed z-[10000] right-0 top-0 w-screen h-screen transition-all duration-350 ease-in-out ${
@@ -68,10 +71,10 @@ function WishListModal() {
           </span>
         </div>
 
-        {wishListItems.length > 0 ? (
-          wishListItems.map((wishListItem, i) => (
+        {items.length > 0 ? (
+          items.map((wishListItem, i) => (
             <Link
-              key={i}
+              key={wishListItem.productId || i}
               onClick={() => setIsWishListOpen(false)}
               href={{
                 pathname: `/categories/${wishListItem.category}/${wishListItem.productName}`,
@@ -137,7 +140,7 @@ function WishListModal() {
           </aside>
         )}
 
-        {wishListItems.length > 0 && (
+        {items.length > 0 && (
           <div className="sticky -bottom-12 max-md:-bottom-6 w-full bg-[#f0f0f0] dark:bg-[#0C0C1E] px-10 py-4 rounded-2xl">
             <aside className="flex justify-between">
               <Button
