@@ -33,7 +33,7 @@ export default function ScrollToTop() {
   return (
     <main
       id="scrollToTopButton"
-      className="fixed bottom-5 right-5 z-[100] cursor-pointer rounded-full bg-[#78B1E4] p-3.5 max-sm:p-2"
+      className="fixed bottom-5 right-5 z-[100] cursor-pointer rounded-full bg-[#78B1E4] p-3.5 max-sm:p-3"
     >
       <svg
         width="40px"
