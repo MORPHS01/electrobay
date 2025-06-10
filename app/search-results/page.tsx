@@ -20,7 +20,7 @@ function SearchResultsContent() {
     : redirect("/categories");
 
   return (
-    <section className="max-w-7xl mx-auto">
+    <section>
       <div className="flex max-md:flex-col items-center max-md:items-start justify-between mb-6">
         <h1 className="text-2xl max-sm:text-lg font-semibold">
           Search Results for &quot;{query}&quot;

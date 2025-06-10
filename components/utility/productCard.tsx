@@ -48,7 +48,7 @@ export default function ProductCard({
             <span className="mr-[3px] font-poppins ">₦</span>
             {product.productPrice.toLocaleString()}
           </p>
-          <div className="flex justify-between items-center">
+          <div className="flex max-sm:flex-col-reverse max-sm:gap-[5px] justify-between items-center">
             <div className="flex mt-2">
               {Array.from(
                 { length: Math.trunc(product.productRating) },
