@@ -18,7 +18,7 @@ export function LoggedIn({ name, email, image, visible }: loggedInProps) {
   const [isPending, startTransition] = useTransition();
   return (
     <main
-      className={`absolute bg-[#f0f0f0] dark:bg-[#0F1125] left-1/2 max-sm:left-1/3 -translate-x-1/2 max-sm:-translate-2/3 top-full mt-1 min-w-[210px] max-sm:min-w-[190px] min-h-[100px] rounded-[8px] px-4 py-5 transform transition-all duration-200 ease-out ${
+      className={`absolute bg-[#f0f0f0] dark:bg-[#0F1125] left-1/2 max-sm:left-1/3 -translate-x-1/2 max-sm:-translate-x-2/3 top-full mt-1 min-w-[210px] max-sm:min-w-[190px] min-h-[100px] rounded-[8px] px-4 py-5 transform transition-all duration-200 ease-out ${
         userProfile
           ? "opacity-100 transform-y-0 z-[100]"
           : "opacity-0 -translate-y-10 -z-[100]"
@@ -65,7 +65,7 @@ export function LoggedOut({ visible }: { visible: boolean }) {
   const [isPending, startTransition] = useTransition();
   return (
     <main
-      className={`absolute bg-[#f0f0f0] dark:bg-[#0F1125] left-1/2 max-sm:left-1/3 -translate-x-1/2 max-sm:-translate-2/3 top-full mt-1 min-w-[210px] max-sm:min-w-[190px] min-h-[100px] rounded-[8px] px-4 py-5 transform transition-all duration-200 ease-out ${
+      className={`absolute bg-[#f0f0f0] dark:bg-[#0F1125] left-1/2 max-sm:left-1/3 -translate-x-1/2 max-sm:-translate-x-2/3 top-full mt-1 min-w-[210px] max-sm:min-w-[190px] min-h-[100px] rounded-[8px] px-4 py-5 transform transition-all duration-200 ease-out ${
         userProfile
           ? "opacity-100 transform-y-0 z-[100]"
           : "opacity-0 -translate-y-10 -z-[100]"
