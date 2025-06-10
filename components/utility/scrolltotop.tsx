@@ -1,37 +1,40 @@
-'use client'
-import { useEffect } from 'react';
+"use client";
+import { useEffect } from "react";
 
-export default function ScrollToTop(){
+export default function ScrollToTop() {
   useEffect(() => {
-    const scrollButton = document.getElementById('scrollToTopButton');
+    const scrollButton = document.getElementById("scrollToTopButton");
 
     if (scrollButton) {
       const toggleVisibility = () => {
         if (window.scrollY > 300) {
-          scrollButton.style.display = 'block';
+          scrollButton.style.display = "block";
         } else {
-          scrollButton.style.display = 'none';
+          scrollButton.style.display = "none";
         }
       };
 
       // Add event listeners for scroll and click
-      document.addEventListener('scroll', toggleVisibility);
-      scrollButton.addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+      document.addEventListener("scroll", toggleVisibility);
+      scrollButton.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
       });
 
       // Cleanup function to remove listeners when the component unmounts
       return () => {
-        document.removeEventListener('scroll', toggleVisibility);
-        scrollButton.removeEventListener('click', () => {
-          window.scrollTo({ top: 0, behavior: 'smooth' });
+        document.removeEventListener("scroll", toggleVisibility);
+        scrollButton.removeEventListener("click", () => {
+          window.scrollTo({ top: 0, behavior: "smooth" });
         });
       };
     }
   }, []);
 
   return (
-    <main id="scrollToTopButton" className="fixed bottom-5 right-5 z-[100] cursor-pointer rounded-full bg-[#78B1E4] p-3.5 max-sm:p-1.5">
+    <main
+      id="scrollToTopButton"
+      className="fixed bottom-5 right-5 z-[100] cursor-pointer rounded-full bg-[#78B1E4] p-3.5 max-sm:p-2"
+    >
       <svg
         width="40px"
         height="40px"
@@ -46,5 +49,4 @@ export default function ScrollToTop(){
       </svg>
     </main>
   );
-};
-
+}
