@@ -22,7 +22,9 @@ export default function ProductCard({
         pathname: `/categories/${product.category}/${product.productName}`,
         query: { productInfo: JSON.stringify(product) },
       }}
-      className={`group ${fixedWidth && "max-w-[500px] min-w-[250px] max-sm:"}`}
+      className={`group ${
+        fixedWidth && "max-w-[500px] min-w-[250px] max-sm:min-w-[180px]"
+      }`}
     >
       <div className="bg-white dark:bg-[#0F1125] rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-103">
         <div className="relative h-48 max-sm:h-30 p-5 max-sm:p-2 w-full bg-[#efefef] dark:bg-[#1b2048]">
@@ -37,19 +39,19 @@ export default function ProductCard({
             <AddToWishList product={product} productCard icon />
           </div>
         </div>
-        <div className="p-4 max-sm:p-1">
+        <div className="p-4 max-sm:p-2">
           <h2 className="text-lg max-sm:text-base font-medium mb-2 max-sm:mb-1 group-hover:text-blue-600 dark:group-hover:text-blue-400 line-clamp-1">
             {product.productName}
           </h2>
           <p className="max-sm:text-sm text-gray-600 dark:text-gray-400 text-sm mb-2 max-sm:mb-1 capitalize">
             {product.category}
           </p>
-          <p className="text-lg max-sm:text-base font-semibold">
+          <p className="text-lg max-sm:text-base font-semibold mb-2 max-sm:mb-1">
             <span className="mr-[3px] font-poppins ">₦</span>
             {product.productPrice.toLocaleString()}
           </p>
-          <div className="flex max-sm:flex-col-reverse max-sm:gap-[5px] justify-between items-center">
-            <div className="flex mt-2">
+          <div className="flex max-sm:flex-col-reverse max-sm:gap-[5px] max-sm:items-start max-sm:justify-start justify-between items-center">
+            <div className="flex">
               {Array.from(
                 { length: Math.trunc(product.productRating) },
                 (_, index) => (

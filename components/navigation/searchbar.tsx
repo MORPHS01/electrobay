@@ -230,7 +230,7 @@ export function MobileSearchBar({ categories }: { categories: string[] }) {
         className="relative min-w-fit rounded-bl-[8px] cursor-pointer bg-[#f0f0f0] dark:bg-[#0F1125] px-[1rem] py-[14px] flex items-center gap-2"
       >
         <Icon name="menu" noHover />
-        <p className="text-sm">{selectedCategory}</p>
+        <p className="text-sm max-sm:text-xs">{selectedCategory}</p>
         {/* Dropdown */}
         <div
           className={`absolute left-0 top-full shadow-md transform transition-all duration-200 ease-out ${

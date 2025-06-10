@@ -146,7 +146,7 @@ function CheckOutContent() {
 
 export default function CheckOut() {
   return (
-    <main className="px-8 py-6">
+    <main className="py-3">
       <Suspense fallback={<Loading />}>
         <CheckOutContent />
       </Suspense>

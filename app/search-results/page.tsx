@@ -20,7 +20,7 @@ function SearchResultsContent() {
     : redirect("/categories");
 
   return (
-    <section>
+    <section className="w-full">
       <div className="flex max-md:flex-col items-center max-md:items-start justify-between mb-6">
         <h1 className="text-2xl max-sm:text-lg font-semibold">
           Search Results for &quot;{query}&quot;
@@ -31,7 +31,7 @@ function SearchResultsContent() {
       </div>
 
       {results.length > 0 ? (
-        <div className="grid max-md:grid-cols-2 max-xl:grid-cols-3 grid-cols-4 max-md:gap-4 gap-6">
+        <div className="grid max-md:grid-cols-2 max-xl:grid-cols-3 grid-cols-4 max-md:gap-4 gap-6 w-full">
           {results.map((result: ProductType, i: number) => (
             <ProductCard key={i} product={result} />
           ))}
@@ -55,7 +55,7 @@ function SearchResultsContent() {
 
 export default function SearchResults() {
   return (
-    <main className="px-8 py-6">
+    <main className="py-3">
       <Suspense fallback={<Loading />}>
         <SearchResultsContent />
       </Suspense>
