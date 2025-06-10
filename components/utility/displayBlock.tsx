@@ -18,7 +18,7 @@ export default function DisplayBlock({
   return (
     <main className="">
       <button className="w-full flex justify-between items-center text-left focus:outline-none whitespace-nowrap">
-        <span className="text-3xl max-md:2xl max-sm:xl font-medium">
+        <span className="text-3xl max-md:2xl max-sm:lg font-medium">
           {title}
         </span>
         {!noViewAll && (
