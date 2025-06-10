@@ -75,7 +75,7 @@ export function LoggedOut({ visible }: { visible: boolean }) {
         <Icon noHover name="close" onClick={() => setUserProfile(false)} />
       </div>
       <div className="flex flex-col items-center gap-2">
-        <h1 className="text-lg max-sm:base font-poppins font-semibold text-gray-800 dark:text-white">
+        <h1 className="text-lg max-sm:base font-poppins font-semibold text-gray-800 dark:text-white flex-1">
           Sign in with Google
         </h1>
         <Button

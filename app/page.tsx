@@ -92,7 +92,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col gap-[60px] items-center">
       <section
-        className={`w-full h-screen bg-cover bg-center bg-no-repeat flex flex-col items-start justify-center max-sm:justify-end p-[40px] max-sm:p-[15px] max-sm:py-[20%] max-[25rem]:p-[10px] max-[25rem]:py-[10%] relative ${
+        className={`w-full h-screen bg-cover bg-center bg-no-repeat flex flex-col items-start justify-center p-[40px] max-sm:p-[15px] max-sm:py-[20%] max-[25rem]:p-[10px] max-[25rem]:py-[10%] relative ${
           getRandomNumber() === 1 ? hero1 : hero2
         }`}
       >
