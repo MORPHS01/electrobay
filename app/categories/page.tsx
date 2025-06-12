@@ -18,7 +18,7 @@ function Categories() {
         {allCategories.map((category, i) => (
           <Link href={`/categories/${category}`} key={i}>
             <article
-              className={`rounded-xl shadow-lg max-md:shadow-sm relative group aspect-square flex justify-start items-end p-5`}
+              className={`rounded-xl shadow-lg max-md:shadow-sm relative group aspect-square flex justify-start items-end p-5 max-sm:p-2.5`}
             >
               <Image
                 src={`/categories/${category}.jpg`}
