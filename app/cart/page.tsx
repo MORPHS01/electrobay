@@ -80,7 +80,7 @@ function Cart() {
 
                   <div className="flex flex-col h-full justify-between flex-1">
                     <span className="flex flex-col gap-[1px]">
-                      <h1 className="font-semiboldtext-xl max-md:text-lg group-hover:text-blue-600 dark:group-hover:text-blue-400">
+                      <h1 className="font-semibold text-xl max-md:text-lg group-hover:text-blue-600 dark:group-hover:text-blue-400">
                         {cartItem.productName}
                       </h1>
                       <p className="line-clamp-1 max-md:line-clamp-2 text-gray-600 dark:text-gray-400 text-sm">

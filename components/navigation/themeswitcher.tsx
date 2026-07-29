@@ -1,14 +1,21 @@
-"use client"
-import { useTheme } from 'next-themes'
+"use client";
+import { useTheme } from "next-themes";
 
 function ThemeSwitcher() {
-  const { setTheme } = useTheme()
-
+  const { setTheme } = useTheme();
 
   return (
-    <main className="w-[24px] h-[24px] flex justify-center items-center"> 
+    <main className="size-6 flex justify-center items-center">
       {/* Sun Icon */}
-      <svg onClick={() => setTheme('light')} width={28} height={28} viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute w-[28px] h-[28px] max-md:w-[23px] max-md:h-[23px] cursor-pointer rotate-90 scale-0 transition-all duration-500 ease-in-out dark:rotate-0 dark:scale-100">
+      <svg
+        onClick={() => setTheme("light")}
+        width={28}
+        height={28}
+        viewBox="0 0 28 28"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className="absolute size-7 max-md:w-[23px] max-md:h-[23px] cursor-pointer rotate-90 scale-0 transition-all duration-500 ease-in-out dark:rotate-0 dark:scale-100"
+      >
         <path
           d="M13.9718 22.0889C18.3624 22.0889 21.9217 18.5296 21.9217 14.1391C21.9217 9.74848 18.3624 6.18921 13.9718 6.18921C9.58124 6.18921 6.02197 9.74848 6.02197 14.1391C6.02197 18.5296 9.58124 22.0889 13.9718 22.0889Z"
           fill="#F4F9FD"
@@ -19,14 +26,22 @@ function ThemeSwitcher() {
         />
       </svg>
       {/* Moon Icon */}
-      <svg onClick={() => setTheme('dark')} width={28} height={28} viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute w-[28px] h-[28px] max-md:w-[23px] max-md:h-[23px] cursor-pointer rotate-0 scale-100 transition-all duration-500 ease-in-out dark:-rotate-90 dark:scale-0">
+      <svg
+        onClick={() => setTheme("dark")}
+        width={28}
+        height={28}
+        viewBox="0 0 28 28"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className="absolute size-7 max-md:w-[23px] max-md:h-[23px] cursor-pointer rotate-0 scale-100 transition-all duration-500 ease-in-out dark:-rotate-90 dark:scale-0"
+      >
         <path
           d="M25.1066 18.6016C24.9248 18.295 24.4138 17.818 23.1418 18.0451C22.4377 18.1701 21.7222 18.2268 21.0067 18.1928C18.3605 18.0792 15.9642 16.864 14.2947 14.9901C12.8183 13.3434 11.9098 11.1969 11.8984 8.88008C11.8984 7.58539 12.1483 6.33613 12.6593 5.155C13.1591 4.00795 12.807 3.40604 12.5571 3.15618C12.2959 2.89497 11.6827 2.53155 10.4788 3.03126C5.83383 4.98465 2.96052 9.64099 3.30123 14.6267C3.64194 19.3171 6.93545 23.3261 11.2965 24.8366C12.3414 25.2 13.443 25.4158 14.5787 25.4612C14.7604 25.4726 14.9421 25.4839 15.1238 25.4839C18.9284 25.4839 22.4945 23.6895 24.7431 20.6345C25.504 19.5783 25.2996 18.9083 25.1066 18.6016Z"
           fill="#000011"
         />
       </svg>
     </main>
-  )
+  );
 }
 
-export default ThemeSwitcher
+export default ThemeSwitcher;

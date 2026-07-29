@@ -78,24 +78,14 @@ const brandLogos = [
 ];
 
 export default function Home() {
-  const hero1 = "bg-[url('/images/hero-image.jpg')]";
-  const hero2 = "bg-[url('/images/hero-image2.jpg')]";
-
   const { theme } = useTheme();
 
   const randomProducts = getRandomProductsDifferentCategories(data, 4);
   const randomProducts2 = getRandomProductsDifferentCategories(data, 4);
-  const getRandomNumber = (): 1 | 2 => {
-    return Math.random() < 0.5 ? 1 : 2;
-  };
 
   return (
     <main className="flex min-h-screen flex-col gap-[60px] items-center">
-      <section
-        className={`w-full h-screen bg-cover bg-center bg-no-repeat flex flex-col items-start justify-center p-[40px] max-sm:p-[15px] max-sm:py-[20%] max-[25rem]:p-[10px] max-[25rem]:py-[10%] relative ${
-          getRandomNumber() === 1 ? hero1 : hero2
-        }`}
-      >
+      <section className="w-full h-screen bg-cover bg-center bg-no-repeat flex flex-col items-start justify-center p-[40px] max-sm:p-[15px] max-sm:py-[20%] max-[25rem]:p-[10px] max-[25rem]:py-[10%] relative bg-[url('/images/hero-image.jpg')] dark:bg-[url('/images/hero-image2.jpg')]">
         <div className="absolute inset-0 bg-black/30" />
         <article className="mt-[13%] max-md:mt-[15%] mx-[6%] max-md:mx-0 font-poppins w-[45%] max-lg:w-[60%] max-md:w-full max-md:text-center max-w-[700px] z-[100] mb-[90px] max-[25rem]:mb-[60px]">
           <p className="mb-[16px] font-semibold text-5xl max-sm:text-3xl max-[20rem]:text-xl text-white leading-[120%]">

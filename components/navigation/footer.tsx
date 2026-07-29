@@ -9,8 +9,6 @@ function Footer() {
   const hrClassName = "w-full border border-[#E5E5E5] dark:border-[#181C3A]";
   const headerClassName =
     "font-semibold text-lg max-md:text-base text-black dark:text-white";
-  const hoverClassName =
-    "cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300 ease-in-out";
 
   return (
     <footer className="flex flex-col items-center bg-white dark:bg-[#000022] rounded-t-[20px]">
@@ -36,18 +34,18 @@ function Footer() {
 
         <div className="flex flex-col gap-[8px] max-md:hidden">
           <p className={headerClassName}>About us</p>
-          <D className={hoverClassName}>Stores</D>
-          <D className={hoverClassName}>Corporate website</D>
-          <D className={hoverClassName}>Exclusive Offers</D>
-          <D className={hoverClassName}>Career</D>
+          <D>Stores</D>
+          <D>Corporate website</D>
+          <D>Exclusive Offers</D>
+          <D>Career</D>
         </div>
 
         <div className="flex flex-col gap-[8px] max-md:hidden">
           <p className={headerClassName}>Help &amp; Support</p>
-          <D className={hoverClassName}>Help center</D>
-          <D className={hoverClassName}>Payments</D>
-          <D className={hoverClassName}>Product returns</D>
-          <D className={hoverClassName}>FAQ</D>
+          <D>Help center</D>
+          <D>Payments</D>
+          <D>Product returns</D>
+          <D>FAQ</D>
         </div>
 
         {/* Mobile Footer */}
@@ -66,10 +64,10 @@ function Footer() {
 
           <div className="hidden max-md:flex flex-col gap-[8px] text-end">
             <p className={headerClassName}>About us</p>
-            <D className={hoverClassName}>Stores</D>
-            <D className={hoverClassName}>Corporate website</D>
-            <D className={hoverClassName}>Exclusive Offers</D>
-            <D className={hoverClassName}>Career</D>
+            <D>Stores</D>
+            <D>Corporate website</D>
+            <D>Exclusive Offers</D>
+            <D>Career</D>
           </div>
         </section>
 
@@ -108,9 +106,11 @@ function Footer() {
           &copy; {currentYear} ElectroBay. All Rights Reserved.
         </p>
         <div className="flex items-center gap-[60px] max-md:gap-[10px] max-md:justify-between max-md:w-full">
-          <D className={hoverClassName}>Terms and conditions</D>
-          <D className={hoverClassName && "max-sm:hidden"}>Cookie settings</D>
-          <D className={hoverClassName}>Donations</D>
+          <D>Terms and conditions</D>
+          <D className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300 ease-in-out max-sm:hidden">
+            Cookie settings
+          </D>
+          <D>Donations</D>
         </div>
       </section>
 
@@ -145,7 +145,7 @@ export default Footer;
 
 function D({
   children,
-  className,
+  className = "cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300 ease-in-out",
 }: {
   children: React.ReactNode;
   className?: string;
